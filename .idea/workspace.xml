@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Creating stl files">
-      <change beforePath="$PROJECT_DIR$/3d_printing/hexagon_planter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3d_printing/hexagon_planter.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3d_printing/test.stl" beforeDir="false" afterPath="$PROJECT_DIR$/3d_printing/test.stl" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="creating hexagon code">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_17_2024_8_17_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_17_2024_8_17_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_642/week_6/hw_6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_642/week_6/hw_6.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/explore.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/explore.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/import_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/import_data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/trading" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,22 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.combine_historical.executor": "Run",
+    "Python.room_mapping.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/connor/PycharmProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,7 +96,8 @@
       <workItem from="1718629544142" duration="3383000" />
       <workItem from="1718715652710" duration="3403000" />
       <workItem from="1718889117703" duration="606000" />
-      <workItem from="1719157162135" duration="4206000" />
+      <workItem from="1719157162135" duration="4526000" />
+      <workItem from="1719320766281" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="Adding initial code for LLM. ANd apparently a ton of stuff">
       <option name="closed" value="true" />
@@ -156,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719158047355</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="creating hexagon code">
+      <option name="closed" value="true" />
+      <created>1719161572434</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719161572434</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,9 +224,11 @@
     <MESSAGE value="Issue is likely standardizing and using PCA before stratified kfold. &#10;&#10;Debug code" />
     <MESSAGE value="Answering Questions 2 and 3" />
     <MESSAGE value="Creating stl files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating stl files" />
+    <MESSAGE value="creating hexagon code" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating hexagon code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719321249265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading" />
     <SUITE FILE_PATH="coverage/PycharmProjects$room_mapping.coverage" NAME="room_mapping Coverage Results" MODIFIED="1710375757125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raspberry_pi" />
   </component>
 </project>
