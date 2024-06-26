@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing FRED API call. Adding GDP data">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding Fred data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/gdp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/gdp.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/import_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/import_data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,7 @@
       <workItem from="1718889117703" duration="606000" />
       <workItem from="1719157162135" duration="4526000" />
       <workItem from="1719320766281" duration="4855000" />
-      <workItem from="1719407216111" duration="864000" />
+      <workItem from="1719407216111" duration="4056000" />
     </task>
     <task id="LOCAL-00001" summary="Adding initial code for LLM. ANd apparently a ton of stuff">
       <option name="closed" value="true" />
@@ -200,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719325029535</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding Fred data">
+      <option name="closed" value="true" />
+      <created>1719408214743</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719408214743</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +265,8 @@
     <MESSAGE value="Updating trading file with new data, new graph, and notes for additional data to grab" />
     <MESSAGE value="Fixing FRED API pull" />
     <MESSAGE value="Fixing FRED API call. Adding GDP data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing FRED API call. Adding GDP data" />
+    <MESSAGE value="Adding Fred data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Fred data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719321249265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading" />
