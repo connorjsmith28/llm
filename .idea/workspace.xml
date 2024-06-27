@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding initial hw 7">
-      <change afterPath="$PROJECT_DIR$/trading/combine_all_data.ipynb" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding more data">
+      <change afterPath="$PROJECT_DIR$/trading/data/combined/combine_all_data.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/ema/voo_ema.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/ema/voo_ema.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/combine_all_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/combine_historical.py" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/combined/combine_historical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/CPALTT01USM657N.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/CPALTT01USM657N.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/data/fred_data/DFF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/DFF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/FPCPITOTLZGUSA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/FPCPITOTLZGUSA.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/data/fred_data/GDPC1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/GDPC1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/RSXFS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/RSXFS.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/data/fred_data/T10YFF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/T10YFF.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/gdp.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/UNRATE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/UNRATE.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/import_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/import_data.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/yfinance_test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/explore.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/visuals/explore.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/import_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/import_data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +69,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\trading\data" />
+      <recent name="C:\Users\connor\PycharmProjects\trading\visuals" />
+      <recent name="C:\Users\connor\PycharmProjects\trading\data\combined" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,7 +116,7 @@
       <workItem from="1719449615835" duration="850000" />
       <workItem from="1719491199408" duration="1609000" />
       <workItem from="1719496071029" duration="798000" />
-      <workItem from="1719497408154" duration="355000" />
+      <workItem from="1719497408154" duration="6779000" />
     </task>
     <task id="LOCAL-00001" summary="Adding initial code for LLM. ANd apparently a ton of stuff">
       <option name="closed" value="true" />
@@ -244,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719496087270</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adding more data">
+      <option name="closed" value="true" />
+      <created>1719497783733</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719497783733</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,10 +323,11 @@
     <MESSAGE value="Add the rest of the data!" />
     <MESSAGE value="Fixing Homework 6" />
     <MESSAGE value="Adding initial hw 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding initial hw 7" />
+    <MESSAGE value="Adding more data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719411479265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719499612526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading" />
     <SUITE FILE_PATH="coverage/PycharmProjects$room_mapping.coverage" NAME="room_mapping Coverage Results" MODIFIED="1710375757125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raspberry_pi" />
   </component>
 </project>
