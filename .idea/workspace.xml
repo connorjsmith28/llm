@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding more data">
-      <change afterPath="$PROJECT_DIR$/trading/data/combined/combine_all_data.ipynb" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Beginning to combine all data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/combine_all_data.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/combine_historical.py" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/combined/combine_historical.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/CPALTT01USM657N.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/CPALTT01USM657N.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_642/week_6/hw_6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_642/week_6/hw_6.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/combined/combine_historical.py" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/combined/combine_historical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/ema/voo_ema.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/ema/voo_ema.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/data/fred_data/DFF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/DFF.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/FPCPITOTLZGUSA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/FPCPITOTLZGUSA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/GDPC1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/GDPC1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/RSXFS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/RSXFS.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/data/fred_data/T10YFF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/T10YFF.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/data/fred_data/UNRATE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/fred_data/UNRATE.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/data/import_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/import_data.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/voo_intraday/full_voo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/explore.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/visuals/explore.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/import_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/data/import_data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +110,8 @@
       <workItem from="1719449615835" duration="850000" />
       <workItem from="1719491199408" duration="1609000" />
       <workItem from="1719496071029" duration="798000" />
-      <workItem from="1719497408154" duration="6779000" />
+      <workItem from="1719497408154" duration="7638000" />
+      <workItem from="1719580003297" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="Adding initial code for LLM. ANd apparently a ton of stuff">
       <option name="closed" value="true" />
@@ -262,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719497783733</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Beginning to combine all data">
+      <option name="closed" value="true" />
+      <created>1719504486091</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719504486091</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,10 +327,11 @@
     <MESSAGE value="Fixing Homework 6" />
     <MESSAGE value="Adding initial hw 7" />
     <MESSAGE value="Adding more data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more data" />
+    <MESSAGE value="Beginning to combine all data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginning to combine all data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719499612526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
     <SUITE FILE_PATH="coverage/PycharmProjects$room_mapping.coverage" NAME="room_mapping Coverage Results" MODIFIED="1710375757125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raspberry_pi" />
   </component>
 </project>
