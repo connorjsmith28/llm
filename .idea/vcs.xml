@@ -4,10 +4,12 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code_samples" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/llm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/plant_health" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/portfolio" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/raspberry_pi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rice" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/trading" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/weed_identification" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/work_projects" vcs="Git" />
   </component>
 </project>
