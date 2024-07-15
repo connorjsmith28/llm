@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="nn model initial">
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/china_blurred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/china_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/china_max_pool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/china_original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/china_sharpen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/china_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/hw_9 Assignment New.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/imagenet_class_names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_642/week_9/test_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_tf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_tf.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_updated.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_updated.ipynb" afterDir="false" />
     </list>
@@ -76,11 +84,11 @@
       <recent name="C:\Users\connor\PycharmProjects\trading" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_642\week_9" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_642\week_8\datasets" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_642\week_8" />
       <recent name="C:\Users\connor\PycharmProjects\trading\data\stage\stage_calendar" />
       <recent name="C:\Users\connor\PycharmProjects\trading\data\analytics" />
-      <recent name="C:\Users\connor\PycharmProjects\trading\data\base\calendar" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,6 +149,7 @@
       <workItem from="1720713609168" duration="5177000" />
       <workItem from="1720738709754" duration="653000" />
       <workItem from="1720739875825" duration="4464000" />
+      <workItem from="1721048565723" duration="1028000" />
     </task>
     <task id="LOCAL-00005" summary="Changing to question answer format">
       <option name="closed" value="true" />
