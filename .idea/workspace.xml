@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="I think it works now...the y_target might be messed up">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixed multi dimensional ltsm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
@@ -161,15 +161,7 @@
       <workItem from="1721394053277" duration="18772000" />
       <workItem from="1721429530841" duration="6657000" />
       <workItem from="1721512245296" duration="10461000" />
-      <workItem from="1721572254160" duration="2847000" />
-    </task>
-    <task id="LOCAL-00012" summary="Fixing FRED API pull">
-      <option name="closed" value="true" />
-      <created>1719324330657</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1719324330657</updated>
+      <workItem from="1721572254160" duration="5192000" />
     </task>
     <task id="LOCAL-00013" summary="Fixing FRED API call. Adding GDP data">
       <option name="closed" value="true" />
@@ -555,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721529241305</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Fixed multi dimensional ltsm">
+      <option name="closed" value="true" />
+      <created>1721575238272</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1721575238272</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dropping analytics table since it's too big to push to github" />
     <MESSAGE value="Updating visuals" />
     <MESSAGE value="Updating target field to be binary" />
     <MESSAGE value="Dropping tables that are too big for git" />
@@ -598,7 +597,8 @@
     <MESSAGE value="LTSM working" />
     <MESSAGE value="Adding ability to use all fields. Mostly works, but y_train_v2 and y_test_v2 seem to be off. Should be the same field as the original versions" />
     <MESSAGE value="I think it works now...the y_target might be messed up" />
-    <option name="LAST_COMMIT_MESSAGE" value="I think it works now...the y_target might be messed up" />
+    <MESSAGE value="Fixed multi dimensional ltsm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed multi dimensional ltsm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
