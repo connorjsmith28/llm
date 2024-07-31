@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="  A">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plant_identification/.idea/plant_identification.iml" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding hyperparameter tuning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiding_star/import/quickbooks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/guiding_star/import/quickbooks.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/models/gru.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/gru.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/models/knn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/knn.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,23 +189,7 @@
       <workItem from="1722275991620" duration="3493000" />
       <workItem from="1722345036393" duration="1848000" />
       <workItem from="1722353103081" duration="657000" />
-      <workItem from="1722437454174" duration="2282000" />
-    </task>
-    <task id="LOCAL-00019" summary="Beginning to combine all data">
-      <option name="closed" value="true" />
-      <created>1719504486091</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1719504486091</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Data pull for the day">
-      <option name="closed" value="true" />
-      <created>1719580874227</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1719580874227</updated>
+      <workItem from="1722437454174" duration="6023000" />
     </task>
     <task id="LOCAL-00021" summary="Reformatting to have base, stage, and analytics models">
       <option name="closed" value="true" />
@@ -589,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722276018008</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Adding more commentary">
+      <option name="closed" value="true" />
+      <created>1722439796824</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1722439796824</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Adding hyperparameter tuning">
+      <option name="closed" value="true" />
+      <created>1722443105605</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1722443105605</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,8 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dropping repos" />
-    <MESSAGE value="Adding initial commit for plant based repos" />
     <MESSAGE value="Adding homework 7 and initial 8" />
     <MESSAGE value="Starting to answer hw 8" />
     <MESSAGE value="Adding sklearn linear regression and gradient descent tf" />
@@ -632,7 +624,9 @@
     <MESSAGE value="Adding GRU" />
     <MESSAGE value="Starting KMeans piece" />
     <MESSAGE value="  A" />
-    <option name="LAST_COMMIT_MESSAGE" value="  A" />
+    <MESSAGE value="Adding more commentary" />
+    <MESSAGE value="Adding hyperparameter tuning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding hyperparameter tuning" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
