@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="There is still a disconnect in how accuracy is calculated. Oh well">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Still some sort of issue with reproducability. Most notable in plotting the output">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_updated.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_updated.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/models/gru.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/gru.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,23 +190,7 @@
       <workItem from="1722275991620" duration="3493000" />
       <workItem from="1722345036393" duration="1848000" />
       <workItem from="1722353103081" duration="657000" />
-      <workItem from="1722437454174" duration="15343000" />
-    </task>
-    <task id="LOCAL-00023" summary="Fixing filepaths">
-      <option name="closed" value="true" />
-      <created>1719585601017</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1719585601017</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Fixing calendar and joins to voo minute data">
-      <option name="closed" value="true" />
-      <created>1719589322060</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1719589322060</updated>
+      <workItem from="1722437454174" duration="22672000" />
     </task>
     <task id="LOCAL-00025" summary="Fixing and identifying quarter grains">
       <option name="closed" value="true" />
@@ -584,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722452724601</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Fixed the accuracy discrepency. It was the dataloader. Adding enumerate ensured it was getting the same values">
+      <option name="closed" value="true" />
+      <created>1722521077719</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1722521077719</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Still some sort of issue with reproducability. Most notable in plotting the output">
+      <option name="closed" value="true" />
+      <created>1722526381829</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1722526381829</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,8 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding sklearn linear regression and gradient descent tf" />
-    <MESSAGE value="Finishing hw_8_tf sans the parts with errors. Everything else seems to be running appropriately" />
     <MESSAGE value="Adding hw 8 datasets" />
     <MESSAGE value="Adding histograms to explore" />
     <MESSAGE value="Adding yml to trading" />
@@ -627,7 +625,9 @@
     <MESSAGE value="Adding hyperparameter tuning" />
     <MESSAGE value="Final tuning" />
     <MESSAGE value="There is still a disconnect in how accuracy is calculated. Oh well" />
-    <option name="LAST_COMMIT_MESSAGE" value="There is still a disconnect in how accuracy is calculated. Oh well" />
+    <MESSAGE value="Fixed the accuracy discrepency. It was the dataloader. Adding enumerate ensured it was getting the same values" />
+    <MESSAGE value="Still some sort of issue with reproducability. Most notable in plotting the output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still some sort of issue with reproducability. Most notable in plotting the output" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
