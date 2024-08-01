@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding hyperparameter tuning">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="There is still a disconnect in how accuracy is calculated. Oh well">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_updated.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_642/week_8/hw_8_updated.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,23 +190,7 @@
       <workItem from="1722275991620" duration="3493000" />
       <workItem from="1722345036393" duration="1848000" />
       <workItem from="1722353103081" duration="657000" />
-      <workItem from="1722437454174" duration="6023000" />
-    </task>
-    <task id="LOCAL-00021" summary="Reformatting to have base, stage, and analytics models">
-      <option name="closed" value="true" />
-      <created>1719582017192</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1719582017192</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Creating calendar">
-      <option name="closed" value="true" />
-      <created>1719584209437</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1719584209437</updated>
+      <workItem from="1722437454174" duration="15343000" />
     </task>
     <task id="LOCAL-00023" summary="Fixing filepaths">
       <option name="closed" value="true" />
@@ -583,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722443105605</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Final tuning">
+      <option name="closed" value="true" />
+      <created>1722444537168</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1722444537168</updated>
+    </task>
+    <task id="LOCAL-00071" summary="There is still a disconnect in how accuracy is calculated. Oh well">
+      <option name="closed" value="true" />
+      <created>1722452724601</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1722452724601</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,8 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding homework 7 and initial 8" />
-    <MESSAGE value="Starting to answer hw 8" />
     <MESSAGE value="Adding sklearn linear regression and gradient descent tf" />
     <MESSAGE value="Finishing hw_8_tf sans the parts with errors. Everything else seems to be running appropriately" />
     <MESSAGE value="Adding hw 8 datasets" />
@@ -626,7 +625,9 @@
     <MESSAGE value="  A" />
     <MESSAGE value="Adding more commentary" />
     <MESSAGE value="Adding hyperparameter tuning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding hyperparameter tuning" />
+    <MESSAGE value="Final tuning" />
+    <MESSAGE value="There is still a disconnect in how accuracy is calculated. Oh well" />
+    <option name="LAST_COMMIT_MESSAGE" value="There is still a disconnect in how accuracy is calculated. Oh well" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
