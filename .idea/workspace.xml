@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Still some sort of issue with reproducability. Most notable in plotting the output">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixed issue with reproducability. &#10;&#10;Added seed before each call to lstm&#10;Didn't need to exclude dropout&#10;Had to add model.train() if I called model.eval() in a previous cell. Which happened on 2 occassions. In cases where I'm only training once this wouldn't be an issue.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/models/gru.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/gru.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,23 +189,7 @@
       <workItem from="1722275991620" duration="3493000" />
       <workItem from="1722345036393" duration="1848000" />
       <workItem from="1722353103081" duration="657000" />
-      <workItem from="1722437454174" duration="22672000" />
-    </task>
-    <task id="LOCAL-00025" summary="Fixing and identifying quarter grains">
-      <option name="closed" value="true" />
-      <created>1719590541813</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1719590541813</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Swapping out inflation metrics so nothing is null. &#10;&#10;Saving joined analytics table. &#10;&#10;Still have to cleanup deceptive nulls in FRED data set where they put .'s">
-      <option name="closed" value="true" />
-      <created>1719591081299</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1719591081299</updated>
+      <workItem from="1722437454174" duration="25473000" />
     </task>
     <task id="LOCAL-00027" summary="Dropping analytics table since it's too big to push to github">
       <option name="closed" value="true" />
@@ -584,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722526381829</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Reproducability seems to have an issue in multiple places. &#10;&#10;Apparently the manual seed needs to be set before each call to the model, not just at the top&#10;&#10;LSTMs have an issue with determnimism which is someone impacted by randomness?&#10;&#10;dropout is random, but there doesn't seem to be a parameter to control which connections dropout.">
+      <option name="closed" value="true" />
+      <created>1722528516191</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1722528516191</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Fixed issue with reproducability. &#10;&#10;Added seed before each call to lstm&#10;Didn't need to exclude dropout&#10;Had to add model.train() if I called model.eval() in a previous cell. Which happened on 2 occassions. In cases where I'm only training once this wouldn't be an issue.">
+      <option name="closed" value="true" />
+      <created>1722530783094</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1722530783094</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,8 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding hw 8 datasets" />
-    <MESSAGE value="Adding histograms to explore" />
     <MESSAGE value="Adding yml to trading" />
     <MESSAGE value="Small updates for submission" />
     <MESSAGE value="nn model initial" />
@@ -627,7 +624,9 @@
     <MESSAGE value="There is still a disconnect in how accuracy is calculated. Oh well" />
     <MESSAGE value="Fixed the accuracy discrepency. It was the dataloader. Adding enumerate ensured it was getting the same values" />
     <MESSAGE value="Still some sort of issue with reproducability. Most notable in plotting the output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still some sort of issue with reproducability. Most notable in plotting the output" />
+    <MESSAGE value="Reproducability seems to have an issue in multiple places. &#10;&#10;Apparently the manual seed needs to be set before each call to the model, not just at the top&#10;&#10;LSTMs have an issue with determnimism which is someone impacted by randomness?&#10;&#10;dropout is random, but there doesn't seem to be a parameter to control which connections dropout." />
+    <MESSAGE value="Fixed issue with reproducability. &#10;&#10;Added seed before each call to lstm&#10;Didn't need to exclude dropout&#10;Had to add model.train() if I called model.eval() in a previous cell. Which happened on 2 occassions. In cases where I'm only training once this wouldn't be an issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue with reproducability. &#10;&#10;Added seed before each call to lstm&#10;Didn't need to exclude dropout&#10;Had to add model.train() if I called model.eval() in a previous cell. Which happened on 2 occassions. In cases where I'm only training once this wouldn't be an issue." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
