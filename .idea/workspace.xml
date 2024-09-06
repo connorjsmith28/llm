@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to update datasets to be torch type first">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Output is definitely wrong.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assgnment_1/CUDA test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/CUDA test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,15 +203,8 @@
       <workItem from="1724862589876" duration="1681000" />
       <workItem from="1724864284955" duration="14000" />
       <workItem from="1725582503872" duration="755000" />
-      <workItem from="1725583274191" duration="1240000" />
-    </task>
-    <task id="LOCAL-00037" summary="Adding all changes">
-      <option name="closed" value="true" />
-      <created>1719953513772</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1719953513772</updated>
+      <workItem from="1725583274191" duration="1478000" />
+      <workItem from="1725628033400" duration="1033000" />
     </task>
     <task id="LOCAL-00038" summary="Adding all changes">
       <option name="closed" value="true" />
@@ -597,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725583634674</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Output is definitely wrong.">
+      <option name="closed" value="true" />
+      <created>1725584746145</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1725584746145</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed multi dimensional ltsm" />
     <MESSAGE value="Updating accuracy" />
     <MESSAGE value="Normalizing, adding dropout layer, reducing learning rate" />
     <MESSAGE value="Mostly done with hw 10" />
@@ -640,7 +640,8 @@
     <MESSAGE value="Getting assignment 1 up and running" />
     <MESSAGE value="Little bit closer!" />
     <MESSAGE value="Need to update datasets to be torch type first" />
-    <option name="LAST_COMMIT_MESSAGE" value="Need to update datasets to be torch type first" />
+    <MESSAGE value="Output is definitely wrong." />
+    <option name="LAST_COMMIT_MESSAGE" value="Output is definitely wrong." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
