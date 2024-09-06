@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Getting assignment 1 up and running">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Little bit closer!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hugging_face_llama3_langchain.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assgnment_1/CUDA test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/CUDA test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,32 +68,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.base_combine_voo_daily.executor": "Run",
-    "Python.calendar.executor": "Run",
-    "Python.combine_historical.executor": "Run",
-    "Python.heb_functions.executor": "Run",
-    "Python.room_mapping.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/connor/PycharmProjects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\connor\PycharmProjects\trading\models" />
@@ -205,15 +202,8 @@
       <workItem from="1724862030248" duration="83000" />
       <workItem from="1724862589876" duration="1681000" />
       <workItem from="1724864284955" duration="14000" />
-      <workItem from="1725582503872" duration="553000" />
-    </task>
-    <task id="LOCAL-00035" summary="resetting">
-      <option name="closed" value="true" />
-      <created>1719952715821</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1719952715821</updated>
+      <workItem from="1725582503872" duration="755000" />
+      <workItem from="1725583274191" duration="342000" />
     </task>
     <task id="LOCAL-00036" summary="Adding all changes">
       <option name="closed" value="true" />
@@ -599,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724860719310</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Little bit closer!">
+      <option name="closed" value="true" />
+      <created>1725583069128</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1725583069128</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding ability to use all fields. Mostly works, but y_train_v2 and y_test_v2 seem to be off. Should be the same field as the original versions" />
     <MESSAGE value="I think it works now...the y_target might be messed up" />
     <MESSAGE value="Fixed multi dimensional ltsm" />
     <MESSAGE value="Updating accuracy" />
@@ -642,7 +639,8 @@
     <MESSAGE value="Creating Assignment 1 files" />
     <MESSAGE value="Adding CNN notebook" />
     <MESSAGE value="Getting assignment 1 up and running" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting assignment 1 up and running" />
+    <MESSAGE value="Little bit closer!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little bit closer!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
