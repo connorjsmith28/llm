@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Combined MLP with a CNN and it still sucks">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="It does work! This dataset is really hard to solve is all. Move this CIFAR10 stuff to another place.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,15 +206,8 @@
       <workItem from="1725583274191" duration="1478000" />
       <workItem from="1725628033400" duration="10005000" />
       <workItem from="1725668945967" duration="881000" />
-      <workItem from="1725745750623" duration="12247000" />
-    </task>
-    <task id="LOCAL-00046" summary="Adding sklearn linear regression and gradient descent tf">
-      <option name="closed" value="true" />
-      <created>1720531310959</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1720531310959</updated>
+      <workItem from="1725745750623" duration="12285000" />
+      <workItem from="1725812519398" duration="1086000" />
     </task>
     <task id="LOCAL-00047" summary="Finishing hw_8_tf sans the parts with errors. Everything else seems to be running appropriately">
       <option name="closed" value="true" />
@@ -599,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725758021242</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="It does work! This dataset is really hard to solve is all. Move this CIFAR10 stuff to another place.">
+      <option name="closed" value="true" />
+      <created>1725761342345</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1725761342345</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Final tuning" />
     <MESSAGE value="There is still a disconnect in how accuracy is calculated. Oh well" />
     <MESSAGE value="Fixed the accuracy discrepency. It was the dataloader. Adding enumerate ensured it was getting the same values" />
     <MESSAGE value="Still some sort of issue with reproducability. Most notable in plotting the output" />
@@ -642,7 +643,8 @@
     <MESSAGE value="Nothing seems to fix it \_/" />
     <MESSAGE value="Happy mostly with the build. It can't learn this pattern though." />
     <MESSAGE value="Combined MLP with a CNN and it still sucks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Combined MLP with a CNN and it still sucks" />
+    <MESSAGE value="It does work! This dataset is really hard to solve is all. Move this CIFAR10 stuff to another place." />
+    <option name="LAST_COMMIT_MESSAGE" value="It does work! This dataset is really hard to solve is all. Move this CIFAR10 stuff to another place." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
