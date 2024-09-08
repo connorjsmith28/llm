@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Happy mostly with the build. It can't learn this pattern though.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Combined MLP with a CNN and it still sucks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,15 +205,7 @@
       <workItem from="1725583274191" duration="1478000" />
       <workItem from="1725628033400" duration="10005000" />
       <workItem from="1725668945967" duration="881000" />
-      <workItem from="1725745750623" duration="8955000" />
-    </task>
-    <task id="LOCAL-00045" summary="Starting to answer hw 8">
-      <option name="closed" value="true" />
-      <created>1720448314261</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1720448314261</updated>
+      <workItem from="1725745750623" duration="12247000" />
     </task>
     <task id="LOCAL-00046" summary="Adding sklearn linear regression and gradient descent tf">
       <option name="closed" value="true" />
@@ -600,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725756369930</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Combined MLP with a CNN and it still sucks">
+      <option name="closed" value="true" />
+      <created>1725758021241</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1725758021242</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +617,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding hyperparameter tuning" />
     <MESSAGE value="Final tuning" />
     <MESSAGE value="There is still a disconnect in how accuracy is calculated. Oh well" />
     <MESSAGE value="Fixed the accuracy discrepency. It was the dataloader. Adding enumerate ensured it was getting the same values" />
@@ -643,7 +641,8 @@
     <MESSAGE value="Discovered nn.ModuleList!" />
     <MESSAGE value="Nothing seems to fix it \_/" />
     <MESSAGE value="Happy mostly with the build. It can't learn this pattern though." />
-    <option name="LAST_COMMIT_MESSAGE" value="Happy mostly with the build. It can't learn this pattern though." />
+    <MESSAGE value="Combined MLP with a CNN and it still sucks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Combined MLP with a CNN and it still sucks" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
