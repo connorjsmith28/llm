@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Finished running initial models. Just need to run final versions with the tuned params and also do ROC curve">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Only ROC left">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb" afterDir="false" />
@@ -208,15 +208,9 @@
       <workItem from="1725668945967" duration="881000" />
       <workItem from="1725745750623" duration="12285000" />
       <workItem from="1725812519398" duration="3215000" />
-      <workItem from="1725886936986" duration="21006000" />
-    </task>
-    <task id="LOCAL-00054" summary="Setting up hw 9">
-      <option name="closed" value="true" />
-      <created>1721049900339</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1721049900339</updated>
+      <workItem from="1725886936986" duration="22580000" />
+      <workItem from="1725926071649" duration="3003000" />
+      <workItem from="1725973265702" duration="4272000" />
     </task>
     <task id="LOCAL-00055" summary="Answering part 1 and 2">
       <option name="closed" value="true" />
@@ -602,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725909752484</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Only ROC left">
+      <option name="closed" value="true" />
+      <created>1725914551454</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1725914551454</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Forgot what's happened here" />
     <MESSAGE value="pushing leftovers" />
     <MESSAGE value="Adding link to plant CNN" />
     <MESSAGE value="Creating Assignment 1 files" />
@@ -645,7 +646,8 @@
     <MESSAGE value="Squashing bugs related to loss/accuracy output from train function. &#10;&#10;Fixed formatting of plots" />
     <MESSAGE value="Fixing graph text placement, size formatting" />
     <MESSAGE value="Finished running initial models. Just need to run final versions with the tuned params and also do ROC curve" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished running initial models. Just need to run final versions with the tuned params and also do ROC curve" />
+    <MESSAGE value="Only ROC left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Only ROC left" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
