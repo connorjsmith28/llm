@@ -7,7 +7,7 @@
     <orderEntry type="jdk" jdkName="Python 3.12" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="plant_identification" />
-    <orderEntry type="module" module-name="heb_webstore" />
+    <orderEntry type="module" module-name="dbt_column_lineage" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
