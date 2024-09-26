@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="I think">
+      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/langgraph/url.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dbt_column_lineage" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -224,15 +224,7 @@
       <workItem from="1727099239515" duration="1209000" />
       <workItem from="1727183125427" duration="2405000" />
       <workItem from="1727220450672" duration="1684000" />
-      <workItem from="1727296913099" duration="4086000" />
-    </task>
-    <task id="LOCAL-00063" summary="Normalizing, adding dropout layer, reducing learning rate">
-      <option name="closed" value="true" />
-      <created>1721597279654</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1721597279654</updated>
+      <workItem from="1727296913099" duration="4502000" />
     </task>
     <task id="LOCAL-00064" summary="Mostly done with hw 10">
       <option name="closed" value="true" />
@@ -618,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727309698870</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="I think">
+      <option name="closed" value="true" />
+      <created>1727311279211</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1727311279211</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Output is definitely wrong." />
     <MESSAGE value="Convert dataset to PyTorch&#10;&#10;Utilizing GPU" />
     <MESSAGE value="GPU working" />
     <MESSAGE value="Tweaking trying to get the model to not suck" />
@@ -661,7 +660,8 @@
     <MESSAGE value="Adding comment for time printout" />
     <MESSAGE value="All outputs computed" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="I think" />
+    <option name="LAST_COMMIT_MESSAGE" value="I think" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
