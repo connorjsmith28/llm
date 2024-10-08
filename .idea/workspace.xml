@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="It does not break!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_preprocessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rice" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -223,23 +222,7 @@
       <workItem from="1727183125427" duration="2405000" />
       <workItem from="1727220450672" duration="1684000" />
       <workItem from="1727296913099" duration="4627000" />
-      <workItem from="1728392620087" duration="886000" />
-    </task>
-    <task id="LOCAL-00065" summary="Adding GRU">
-      <option name="closed" value="true" />
-      <created>1721663506309</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1721663506309</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Starting KMeans piece">
-      <option name="closed" value="true" />
-      <created>1721741529775</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1721741529775</updated>
+      <workItem from="1728392620087" duration="3889000" />
     </task>
     <task id="LOCAL-00067" summary="  A">
       <option name="closed" value="true" />
@@ -617,7 +600,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727311602105</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Testing I didn't break the file">
+      <option name="closed" value="true" />
+      <created>1728393710794</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1728393710794</updated>
+    </task>
+    <task id="LOCAL-00115" summary="It does not break!">
+      <option name="closed" value="true" />
+      <created>1728393972753</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1728393972753</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,8 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GPU working" />
-    <MESSAGE value="Tweaking trying to get the model to not suck" />
     <MESSAGE value="Adding layer variable to MLP" />
     <MESSAGE value="Discovered nn.ModuleList!" />
     <MESSAGE value="Nothing seems to fix it \_/" />
@@ -660,7 +657,9 @@
     <MESSAGE value="." />
     <MESSAGE value="I think" />
     <MESSAGE value="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where." />
+    <MESSAGE value="Testing I didn't break the file" />
+    <MESSAGE value="It does not break!" />
+    <option name="LAST_COMMIT_MESSAGE" value="It does not break!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
