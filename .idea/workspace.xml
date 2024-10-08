@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="It does not break!">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Testing creating grid search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
@@ -222,15 +222,8 @@
       <workItem from="1727183125427" duration="2405000" />
       <workItem from="1727220450672" duration="1684000" />
       <workItem from="1727296913099" duration="4627000" />
-      <workItem from="1728392620087" duration="3889000" />
-    </task>
-    <task id="LOCAL-00067" summary="  A">
-      <option name="closed" value="true" />
-      <created>1722276018008</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1722276018008</updated>
+      <workItem from="1728392620087" duration="3913000" />
+      <workItem from="1728396600637" duration="1237000" />
     </task>
     <task id="LOCAL-00068" summary="Adding more commentary">
       <option name="closed" value="true" />
@@ -616,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728393972753</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Testing creating grid search">
+      <option name="closed" value="true" />
+      <created>1728396557681</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1728396557681</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding layer variable to MLP" />
     <MESSAGE value="Discovered nn.ModuleList!" />
     <MESSAGE value="Nothing seems to fix it \_/" />
     <MESSAGE value="Happy mostly with the build. It can't learn this pattern though." />
@@ -659,7 +659,8 @@
     <MESSAGE value="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where." />
     <MESSAGE value="Testing I didn't break the file" />
     <MESSAGE value="It does not break!" />
-    <option name="LAST_COMMIT_MESSAGE" value="It does not break!" />
+    <MESSAGE value="Testing creating grid search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing creating grid search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
