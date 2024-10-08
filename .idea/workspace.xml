@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Testing creating grid search">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
@@ -223,15 +223,7 @@
       <workItem from="1727220450672" duration="1684000" />
       <workItem from="1727296913099" duration="4627000" />
       <workItem from="1728392620087" duration="3913000" />
-      <workItem from="1728396600637" duration="4683000" />
-    </task>
-    <task id="LOCAL-00069" summary="Adding hyperparameter tuning">
-      <option name="closed" value="true" />
-      <created>1722443105605</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1722443105605</updated>
+      <workItem from="1728396600637" duration="6767000" />
     </task>
     <task id="LOCAL-00070" summary="Final tuning">
       <option name="closed" value="true" />
@@ -617,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728398099138</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size.">
+      <option name="closed" value="true" />
+      <created>1728403919422</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1728403919422</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Discovered nn.ModuleList!" />
     <MESSAGE value="Nothing seems to fix it \_/" />
     <MESSAGE value="Happy mostly with the build. It can't learn this pattern though." />
     <MESSAGE value="Combined MLP with a CNN and it still sucks" />
@@ -660,7 +659,8 @@
     <MESSAGE value="Testing I didn't break the file" />
     <MESSAGE value="It does not break!" />
     <MESSAGE value="Testing creating grid search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing creating grid search" />
+    <MESSAGE value="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
