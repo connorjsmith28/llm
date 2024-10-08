@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="I think">
-      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/langgraph/url.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_preprocessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dbt_column_lineage" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rice" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -71,33 +69,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.base_combine_voo_daily.executor": "Run",
-    "Python.calendar.executor": "Run",
-    "Python.combine_historical.executor": "Run",
-    "Python.heb_functions.executor": "Run",
-    "Python.room_mapping.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/connor/PycharmProjects/dbt_column_lineage/models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/dbt_column_lineage/models&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage\models" />
@@ -224,15 +222,8 @@
       <workItem from="1727099239515" duration="1209000" />
       <workItem from="1727183125427" duration="2405000" />
       <workItem from="1727220450672" duration="1684000" />
-      <workItem from="1727296913099" duration="4502000" />
-    </task>
-    <task id="LOCAL-00064" summary="Mostly done with hw 10">
-      <option name="closed" value="true" />
-      <created>1721655144294</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1721655144294</updated>
+      <workItem from="1727296913099" duration="4627000" />
+      <workItem from="1728392620087" duration="886000" />
     </task>
     <task id="LOCAL-00065" summary="Adding GRU">
       <option name="closed" value="true" />
@@ -618,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727311279211</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where.">
+      <option name="closed" value="true" />
+      <created>1727311602105</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1727311602105</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Convert dataset to PyTorch&#10;&#10;Utilizing GPU" />
     <MESSAGE value="GPU working" />
     <MESSAGE value="Tweaking trying to get the model to not suck" />
     <MESSAGE value="Adding layer variable to MLP" />
@@ -661,7 +659,19 @@
     <MESSAGE value="All outputs computed" />
     <MESSAGE value="." />
     <MESSAGE value="I think" />
-    <option name="LAST_COMMIT_MESSAGE" value="I think" />
+    <MESSAGE value="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/connor/PycharmProjects/rice/comp_647/assignment_2/Assignment2_Applied_CV_preprocessing.ipynb</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
