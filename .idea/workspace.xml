@@ -103,11 +103,11 @@
       <recent name="C:\Users\connor\PycharmProjects\trading" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\model_weights" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage\models" />
       <recent name="C:\Users\connor\PycharmProjects\llm" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assgnment_1" />
       <recent name="C:\Users\connor\PycharmProjects\plant_identification" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_642\week_10" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -223,15 +223,7 @@
       <workItem from="1727220450672" duration="1684000" />
       <workItem from="1727296913099" duration="4627000" />
       <workItem from="1728392620087" duration="3913000" />
-      <workItem from="1728396600637" duration="1237000" />
-    </task>
-    <task id="LOCAL-00068" summary="Adding more commentary">
-      <option name="closed" value="true" />
-      <created>1722439796824</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1722439796824</updated>
+      <workItem from="1728396600637" duration="4683000" />
     </task>
     <task id="LOCAL-00069" summary="Adding hyperparameter tuning">
       <option name="closed" value="true" />
@@ -617,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728396557681</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Testing creating grid search">
+      <option name="closed" value="true" />
+      <created>1728398099137</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1728398099138</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
