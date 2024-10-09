@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Creating arc 1 and 2. Both are unable to learn the underlying problem. If I have time, go back and try adding skip connections back in.">
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/split_archive/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/split_archive/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/split_archive/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,15 +224,7 @@
       <workItem from="1727220450672" duration="1684000" />
       <workItem from="1727296913099" duration="4627000" />
       <workItem from="1728392620087" duration="3913000" />
-      <workItem from="1728396600637" duration="28920000" />
-    </task>
-    <task id="LOCAL-00074" summary="Reproducability seems to have an issue in multiple places. &#10;&#10;Apparently the manual seed needs to be set before each call to the model, not just at the top&#10;&#10;LSTMs have an issue with determnimism which is someone impacted by randomness?&#10;&#10;dropout is random, but there doesn't seem to be a parameter to control which connections dropout.">
-      <option name="closed" value="true" />
-      <created>1722528516191</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1722528516191</updated>
+      <workItem from="1728396600637" duration="35454000" />
     </task>
     <task id="LOCAL-00075" summary="Fixed issue with reproducability. &#10;&#10;Added seed before each call to lstm&#10;Didn't need to exclude dropout&#10;Had to add model.train() if I called model.eval() in a previous cell. Which happened on 2 occassions. In cases where I'm only training once this wouldn't be an issue.">
       <option name="closed" value="true" />
@@ -617,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728482703969</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients.">
+      <option name="closed" value="true" />
+      <created>1728486988052</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1728486988052</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Batch normalization is magic. The unsolvable problem is now solvable even with a 2 layer NN! It's not perfect and badly overfits but it's still crazy." />
     <MESSAGE value="Apply batch norm to CNN" />
     <MESSAGE value="Pushing everything else&#10;&#10;Still need to complete:&#10;&#10;Tuning&#10;&#10;Move CIFAR10 piece to another area&#10;&#10;Is there a way to clean pu this script? It's so much." />
     <MESSAGE value="Creating functions for accuracy, loss, and plotting" />
@@ -660,7 +660,8 @@
     <MESSAGE value="Increasing number of hidden layers to combat loss plateau" />
     <MESSAGE value="Can't help but think something is still wrong." />
     <MESSAGE value="Creating arc 1 and 2. Both are unable to learn the underlying problem. If I have time, go back and try adding skip connections back in." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating arc 1 and 2. Both are unable to learn the underlying problem. If I have time, go back and try adding skip connections back in." />
+    <MESSAGE value="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients." />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
