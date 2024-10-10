@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/model_weights/cnn" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/split_archive/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/split_archive/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,23 +225,8 @@
       <workItem from="1727220450672" duration="1684000" />
       <workItem from="1727296913099" duration="4627000" />
       <workItem from="1728392620087" duration="3913000" />
-      <workItem from="1728396600637" duration="35454000" />
-    </task>
-    <task id="LOCAL-00075" summary="Fixed issue with reproducability. &#10;&#10;Added seed before each call to lstm&#10;Didn't need to exclude dropout&#10;Had to add model.train() if I called model.eval() in a previous cell. Which happened on 2 occassions. In cases where I'm only training once this wouldn't be an issue.">
-      <option name="closed" value="true" />
-      <created>1722530783094</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1722530783094</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Adding more text for final report and adding labels for graphs">
-      <option name="closed" value="true" />
-      <created>1722531321627</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1722531321627</updated>
+      <workItem from="1728396600637" duration="45700000" />
+      <workItem from="1728519645962" duration="3705000" />
     </task>
     <task id="LOCAL-00077" summary="Adding parameter updates for lstm to final report">
       <option name="closed" value="true" />
@@ -618,7 +604,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728486988052</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Getting closer on transfer learning. &#10;&#10;I have a version that works, but I haven't tried to hook it up to the training function yet.&#10;&#10;I have another version that works with the training function and has the freeze option but something about creating the nn class is causing a problem with forward propogation.">
+      <option name="closed" value="true" />
+      <created>1728495557264</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1728495557264</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1.">
+      <option name="closed" value="true" />
+      <created>1728500495628</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1728500495628</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,8 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Apply batch norm to CNN" />
-    <MESSAGE value="Pushing everything else&#10;&#10;Still need to complete:&#10;&#10;Tuning&#10;&#10;Move CIFAR10 piece to another area&#10;&#10;Is there a way to clean pu this script? It's so much." />
     <MESSAGE value="Creating functions for accuracy, loss, and plotting" />
     <MESSAGE value="Squashing bugs related to loss/accuracy output from train function. &#10;&#10;Fixed formatting of plots" />
     <MESSAGE value="Fixing graph text placement, size formatting" />
@@ -661,7 +661,9 @@
     <MESSAGE value="Can't help but think something is still wrong." />
     <MESSAGE value="Creating arc 1 and 2. Both are unable to learn the underlying problem. If I have time, go back and try adding skip connections back in." />
     <MESSAGE value="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients." />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients." />
+    <MESSAGE value="Getting closer on transfer learning. &#10;&#10;I have a version that works, but I haven't tried to hook it up to the training function yet.&#10;&#10;I have another version that works with the training function and has the freeze option but something about creating the nn class is causing a problem with forward propogation." />
+    <MESSAGE value="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
