@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing an issue with the test accuracy function and added a writeup for transfer learning">
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/liar_dataset/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/liar_dataset/test.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/liar_dataset/train.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/liar_dataset/valid.tsv" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
@@ -231,31 +227,8 @@
       <workItem from="1728396600637" duration="45700000" />
       <workItem from="1728519645962" duration="38688000" />
       <workItem from="1728753580159" duration="707000" />
-      <workItem from="1728910944952" duration="4696000" />
-    </task>
-    <task id="LOCAL-00078" summary="Forgot what's happened here">
-      <option name="closed" value="true" />
-      <created>1722781995176</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1722781995176</updated>
-    </task>
-    <task id="LOCAL-00079" summary="pushing leftovers">
-      <option name="closed" value="true" />
-      <created>1724349860387</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1724349860388</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Adding link to plant CNN">
-      <option name="closed" value="true" />
-      <created>1724349897857</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1724349897857</updated>
+      <workItem from="1728910944952" duration="7003000" />
+      <workItem from="1728928966081" duration="3055000" />
     </task>
     <task id="LOCAL-00081" summary="Creating Assignment 1 files">
       <option name="closed" value="true" />
@@ -625,7 +598,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728566846867</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Building the new training function for the text problem">
+      <option name="closed" value="true" />
+      <created>1728915692611</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1728915692612</updated>
+    </task>
+    <task id="LOCAL-00128" summary="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing.">
+      <option name="closed" value="true" />
+      <created>1728917258010</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1728917258010</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes">
+      <option name="closed" value="true" />
+      <created>1728917988133</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1728917988133</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,9 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Squashing bugs related to loss/accuracy output from train function. &#10;&#10;Fixed formatting of plots" />
-    <MESSAGE value="Fixing graph text placement, size formatting" />
-    <MESSAGE value="Finished running initial models. Just need to run final versions with the tuned params and also do ROC curve" />
     <MESSAGE value="Only ROC left" />
     <MESSAGE value="Tracking y_true and y_pred in preparation for ROC" />
     <MESSAGE value="ROC plot" />
@@ -668,7 +662,10 @@
     <MESSAGE value="Getting closer on transfer learning. &#10;&#10;I have a version that works, but I haven't tried to hook it up to the training function yet.&#10;&#10;I have another version that works with the training function and has the freeze option but something about creating the nn class is causing a problem with forward propogation." />
     <MESSAGE value="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1." />
     <MESSAGE value="Fixing an issue with the test accuracy function and added a writeup for transfer learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing an issue with the test accuracy function and added a writeup for transfer learning" />
+    <MESSAGE value="Building the new training function for the text problem" />
+    <MESSAGE value="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing." />
+    <MESSAGE value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
