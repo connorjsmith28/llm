@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding some comments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy.">
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
@@ -229,23 +228,7 @@
       <workItem from="1728519645962" duration="38688000" />
       <workItem from="1728753580159" duration="707000" />
       <workItem from="1728910944952" duration="7003000" />
-      <workItem from="1728928966081" duration="8407000" />
-    </task>
-    <task id="LOCAL-00085" summary="Need to update datasets to be torch type first">
-      <option name="closed" value="true" />
-      <created>1725583634674</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1725583634674</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Output is definitely wrong.">
-      <option name="closed" value="true" />
-      <created>1725584746145</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1725584746145</updated>
+      <workItem from="1728928966081" duration="8808000" />
     </task>
     <task id="LOCAL-00087" summary="Convert dataset to PyTorch&#10;&#10;Utilizing GPU">
       <option name="closed" value="true" />
@@ -623,7 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728935097240</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="This model achieves a 22% accuracy. Has these bizarre dips to 0 for extended epochs before shooting back up.">
+      <option name="closed" value="true" />
+      <created>1728937453448</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1728937453448</updated>
+    </task>
+    <task id="LOCAL-00135" summary="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy.">
+      <option name="closed" value="true" />
+      <created>1728937723390</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1728937723390</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Only writing the summary is left" />
-    <MESSAGE value="Adding comment for time printout" />
     <MESSAGE value="All outputs computed" />
     <MESSAGE value="." />
     <MESSAGE value="I think" />
@@ -666,7 +663,9 @@
     <MESSAGE value="Accuracy at 70%+ even with only a single linear layer. That's crazy" />
     <MESSAGE value="Updating accuracy. It's actually bad bc. it had counted each value in the one-hot-encoded tensor in the denominator when the exptected behavior was if all the values in the tensor matched then it was correct, incorrect otherwise." />
     <MESSAGE value="Adding some comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some comments" />
+    <MESSAGE value="This model achieves a 22% accuracy. Has these bizarre dips to 0 for extended epochs before shooting back up." />
+    <MESSAGE value="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy." />
+    <option name="LAST_COMMIT_MESSAGE" value="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
