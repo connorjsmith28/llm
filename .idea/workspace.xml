@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding in embeddings which seems to fix the size problem">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Accuracy at 70%+ even with only a single linear layer. That's crazy">
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
@@ -229,15 +228,7 @@
       <workItem from="1728519645962" duration="38688000" />
       <workItem from="1728753580159" duration="707000" />
       <workItem from="1728910944952" duration="7003000" />
-      <workItem from="1728928966081" duration="4822000" />
-    </task>
-    <task id="LOCAL-00082" summary="Adding CNN notebook">
-      <option name="closed" value="true" />
-      <created>1724860321622</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1724860321622</updated>
+      <workItem from="1728928966081" duration="5681000" />
     </task>
     <task id="LOCAL-00083" summary="Getting assignment 1 up and running">
       <option name="closed" value="true" />
@@ -623,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728932072444</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Accuracy at 70%+ even with only a single linear layer. That's crazy">
+      <option name="closed" value="true" />
+      <created>1728933839044</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1728933839044</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tracking y_true and y_pred in preparation for ROC" />
     <MESSAGE value="ROC plot" />
     <MESSAGE value="Getting closer, still need to discover how to save the model as an output." />
     <MESSAGE value="Only writing the summary is left" />
@@ -666,7 +664,8 @@
     <MESSAGE value="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing." />
     <MESSAGE value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
     <MESSAGE value="Adding in embeddings which seems to fix the size problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding in embeddings which seems to fix the size problem" />
+    <MESSAGE value="Accuracy at 70%+ even with only a single linear layer. That's crazy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accuracy at 70%+ even with only a single linear layer. That's crazy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
