@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding in embeddings which seems to fix the size problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
@@ -228,15 +229,7 @@
       <workItem from="1728519645962" duration="38688000" />
       <workItem from="1728753580159" duration="707000" />
       <workItem from="1728910944952" duration="7003000" />
-      <workItem from="1728928966081" duration="3055000" />
-    </task>
-    <task id="LOCAL-00081" summary="Creating Assignment 1 files">
-      <option name="closed" value="true" />
-      <created>1724860258445</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1724860258445</updated>
+      <workItem from="1728928966081" duration="4822000" />
     </task>
     <task id="LOCAL-00082" summary="Adding CNN notebook">
       <option name="closed" value="true" />
@@ -622,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728917988133</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Adding in embeddings which seems to fix the size problem">
+      <option name="closed" value="true" />
+      <created>1728932072444</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1728932072444</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Only ROC left" />
     <MESSAGE value="Tracking y_true and y_pred in preparation for ROC" />
     <MESSAGE value="ROC plot" />
     <MESSAGE value="Getting closer, still need to discover how to save the model as an output." />
@@ -665,7 +665,8 @@
     <MESSAGE value="Building the new training function for the text problem" />
     <MESSAGE value="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing." />
     <MESSAGE value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
+    <MESSAGE value="Adding in embeddings which seems to fix the size problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding in embeddings which seems to fix the size problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
