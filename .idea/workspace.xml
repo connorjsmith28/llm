@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Accuracy at 70%+ even with only a single linear layer. That's crazy">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding some comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
@@ -228,23 +229,7 @@
       <workItem from="1728519645962" duration="38688000" />
       <workItem from="1728753580159" duration="707000" />
       <workItem from="1728910944952" duration="7003000" />
-      <workItem from="1728928966081" duration="5681000" />
-    </task>
-    <task id="LOCAL-00083" summary="Getting assignment 1 up and running">
-      <option name="closed" value="true" />
-      <created>1724860719310</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1724860719310</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Little bit closer!">
-      <option name="closed" value="true" />
-      <created>1725583069128</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1725583069128</updated>
+      <workItem from="1728928966081" duration="8407000" />
     </task>
     <task id="LOCAL-00085" summary="Need to update datasets to be torch type first">
       <option name="closed" value="true" />
@@ -622,7 +607,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728933839044</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Updating accuracy. It's actually bad bc. it had counted each value in the one-hot-encoded tensor in the denominator when the exptected behavior was if all the values in the tensor matched then it was correct, incorrect otherwise.">
+      <option name="closed" value="true" />
+      <created>1728934915805</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1728934915805</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Adding some comments">
+      <option name="closed" value="true" />
+      <created>1728935097240</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1728935097240</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,8 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ROC plot" />
-    <MESSAGE value="Getting closer, still need to discover how to save the model as an output." />
     <MESSAGE value="Only writing the summary is left" />
     <MESSAGE value="Adding comment for time printout" />
     <MESSAGE value="All outputs computed" />
@@ -665,7 +664,9 @@
     <MESSAGE value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
     <MESSAGE value="Adding in embeddings which seems to fix the size problem" />
     <MESSAGE value="Accuracy at 70%+ even with only a single linear layer. That's crazy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accuracy at 70%+ even with only a single linear layer. That's crazy" />
+    <MESSAGE value="Updating accuracy. It's actually bad bc. it had counted each value in the one-hot-encoded tensor in the denominator when the exptected behavior was if all the values in the tensor matched then it was correct, incorrect otherwise." />
+    <MESSAGE value="Adding some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
