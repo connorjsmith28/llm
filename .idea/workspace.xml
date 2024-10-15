@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="LSTM working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,15 +228,7 @@
       <workItem from="1728753580159" duration="707000" />
       <workItem from="1728910944952" duration="7003000" />
       <workItem from="1728928966081" duration="11536000" />
-      <workItem from="1728997463670" duration="7543000" />
-    </task>
-    <task id="LOCAL-00091" summary="Discovered nn.ModuleList!">
-      <option name="closed" value="true" />
-      <created>1725747231294</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1725747231294</updated>
+      <workItem from="1728997463670" duration="8599000" />
     </task>
     <task id="LOCAL-00092" summary="Nothing seems to fix it \_/">
       <option name="closed" value="true" />
@@ -621,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729001861913</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="LSTM working">
+      <option name="closed" value="true" />
+      <created>1729008756254</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1729008756255</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing I didn't break the file" />
     <MESSAGE value="It does not break!" />
     <MESSAGE value="Testing creating grid search" />
     <MESSAGE value="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size." />
@@ -664,7 +664,8 @@
     <MESSAGE value="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper." />
     <MESSAGE value="Starting LSTM&#10;&#10;Not having success reducing overfitting for CNN. Adding more layers also seems to make it both worse and take longer." />
     <MESSAGE value="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm." />
+    <MESSAGE value="LSTM working" />
+    <option name="LAST_COMMIT_MESSAGE" value="LSTM working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
