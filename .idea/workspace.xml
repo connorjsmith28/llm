@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy.">
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV_Transfer_Learning.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
@@ -228,23 +228,8 @@
       <workItem from="1728519645962" duration="38688000" />
       <workItem from="1728753580159" duration="707000" />
       <workItem from="1728910944952" duration="7003000" />
-      <workItem from="1728928966081" duration="8808000" />
-    </task>
-    <task id="LOCAL-00087" summary="Convert dataset to PyTorch&#10;&#10;Utilizing GPU">
-      <option name="closed" value="true" />
-      <created>1725629269274</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1725629269274</updated>
-    </task>
-    <task id="LOCAL-00088" summary="GPU working">
-      <option name="closed" value="true" />
-      <created>1725630584470</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1725630584470</updated>
+      <workItem from="1728928966081" duration="11536000" />
+      <workItem from="1728997463670" duration="1659000" />
     </task>
     <task id="LOCAL-00089" summary="Tweaking trying to get the model to not suck">
       <option name="closed" value="true" />
@@ -622,7 +607,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728937723390</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Not actually an issue. You're only reporting the valid accuracy and loss. You'd see the training loss continue to go down.">
+      <option name="closed" value="true" />
+      <created>1728938056433</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1728938056433</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper.">
+      <option name="closed" value="true" />
+      <created>1728939955316</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1728939955316</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,8 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="All outputs computed" />
-    <MESSAGE value="." />
     <MESSAGE value="I think" />
     <MESSAGE value="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where." />
     <MESSAGE value="Testing I didn't break the file" />
@@ -665,7 +664,9 @@
     <MESSAGE value="Adding some comments" />
     <MESSAGE value="This model achieves a 22% accuracy. Has these bizarre dips to 0 for extended epochs before shooting back up." />
     <MESSAGE value="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy." />
-    <option name="LAST_COMMIT_MESSAGE" value="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy." />
+    <MESSAGE value="Not actually an issue. You're only reporting the valid accuracy and loss. You'd see the training loss continue to go down." />
+    <MESSAGE value="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper." />
+    <option name="LAST_COMMIT_MESSAGE" value="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
