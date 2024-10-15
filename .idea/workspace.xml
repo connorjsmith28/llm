@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Starting LSTM&#10;&#10;Not having success reducing overfitting for CNN. Adding more layers also seems to make it both worse and take longer.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,15 +227,7 @@
       <workItem from="1728753580159" duration="707000" />
       <workItem from="1728910944952" duration="7003000" />
       <workItem from="1728928966081" duration="11536000" />
-      <workItem from="1728997463670" duration="4324000" />
-    </task>
-    <task id="LOCAL-00090" summary="Adding layer variable to MLP">
-      <option name="closed" value="true" />
-      <created>1725656910496</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1725656910496</updated>
+      <workItem from="1728997463670" duration="7543000" />
     </task>
     <task id="LOCAL-00091" summary="Discovered nn.ModuleList!">
       <option name="closed" value="true" />
@@ -622,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728999317335</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm.">
+      <option name="closed" value="true" />
+      <created>1729001861913</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1729001861913</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where." />
     <MESSAGE value="Testing I didn't break the file" />
     <MESSAGE value="It does not break!" />
     <MESSAGE value="Testing creating grid search" />
@@ -665,7 +663,8 @@
     <MESSAGE value="Not actually an issue. You're only reporting the valid accuracy and loss. You'd see the training loss continue to go down." />
     <MESSAGE value="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper." />
     <MESSAGE value="Starting LSTM&#10;&#10;Not having success reducing overfitting for CNN. Adding more layers also seems to make it both worse and take longer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting LSTM&#10;&#10;Not having success reducing overfitting for CNN. Adding more layers also seems to make it both worse and take longer." />
+    <MESSAGE value="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
