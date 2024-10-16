@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="You need a better solution to package management">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Dropping files that are too big to push to git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.100d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/glove/glove.twitter.27B.100d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.200d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/glove/glove.twitter.27B.200d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.25d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/glove/glove.twitter.27B.25d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.50d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/glove/glove.twitter.27B.50d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.100d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.200d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.25d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.50d.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +100,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage\models" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
       <recent name="C:\Users\connor\PycharmProjects\trading\models" />
@@ -233,14 +233,6 @@
       <workItem from="1728910944952" duration="7003000" />
       <workItem from="1728928966081" duration="11536000" />
       <workItem from="1728997463670" duration="8599000" />
-    </task>
-    <task id="LOCAL-00093" summary="Happy mostly with the build. It can't learn this pattern though.">
-      <option name="closed" value="true" />
-      <created>1725756369930</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1725756369930</updated>
     </task>
     <task id="LOCAL-00094" summary="Combined MLP with a CNN and it still sucks">
       <option name="closed" value="true" />
@@ -626,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729087362507</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Dropping files that are too big to push to git">
+      <option name="closed" value="true" />
+      <created>1729089689248</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1729089689248</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing creating grid search" />
     <MESSAGE value="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size." />
     <MESSAGE value="Completing architecture 1. &#10;&#10;Includes skip connections, maxpooling, and conv2d layers.&#10;&#10;Consider upsampling and doing more skip connections for arc2" />
     <MESSAGE value="Increasing number of hidden layers to combat loss plateau" />
@@ -669,7 +668,8 @@
     <MESSAGE value="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm." />
     <MESSAGE value="LSTM working" />
     <MESSAGE value="You need a better solution to package management" />
-    <option name="LAST_COMMIT_MESSAGE" value="You need a better solution to package management" />
+    <MESSAGE value="Dropping files that are too big to push to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dropping files that are too big to push to git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
