@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Don't use the broken branch.">
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.100d_wv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.200d_wv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.25d_wv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.50d_wv.txt" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
     </list>
@@ -233,23 +229,7 @@
       <workItem from="1728910944952" duration="7003000" />
       <workItem from="1728928966081" duration="11536000" />
       <workItem from="1728997463670" duration="8599000" />
-      <workItem from="1729170487752" duration="1890000" />
-    </task>
-    <task id="LOCAL-00095" summary="It does work! This dataset is really hard to solve is all. Move this CIFAR10 stuff to another place.">
-      <option name="closed" value="true" />
-      <created>1725761342345</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1725761342345</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Batch normalization is magic. The unsolvable problem is now solvable even with a 2 layer NN! It's not perfect and badly overfits but it's still crazy.">
-      <option name="closed" value="true" />
-      <created>1725813732680</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1725813732680</updated>
+      <workItem from="1729170487752" duration="3606000" />
     </task>
     <task id="LOCAL-00097" summary="Apply batch norm to CNN">
       <option name="closed" value="true" />
@@ -627,7 +607,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729090338746</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="Pretrained embeddings functioning now.">
+      <option name="closed" value="true" />
+      <created>1729172561748</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1729172561748</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters">
+      <option name="closed" value="true" />
+      <created>1729172754189</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1729172754189</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,8 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completing architecture 1. &#10;&#10;Includes skip connections, maxpooling, and conv2d layers.&#10;&#10;Consider upsampling and doing more skip connections for arc2" />
-    <MESSAGE value="Increasing number of hidden layers to combat loss plateau" />
     <MESSAGE value="Can't help but think something is still wrong." />
     <MESSAGE value="Creating arc 1 and 2. Both are unable to learn the underlying problem. If I have time, go back and try adding skip connections back in." />
     <MESSAGE value="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients." />
@@ -670,7 +664,9 @@
     <MESSAGE value="You need a better solution to package management" />
     <MESSAGE value="Dropping files that are too big to push to git" />
     <MESSAGE value="Don't use the broken branch." />
-    <option name="LAST_COMMIT_MESSAGE" value="Don't use the broken branch." />
+    <MESSAGE value="Pretrained embeddings functioning now." />
+    <MESSAGE value="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
