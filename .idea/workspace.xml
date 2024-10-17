@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Dropping files that are too big to push to git">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Don't use the broken branch.">
+      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.100d_wv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.200d_wv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.25d_wv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.50d_wv.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.100d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.200d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.25d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/pretrained_embeddings/glove.twitter.27B.50d.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,33 +71,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.base_combine_voo_daily.executor": "Run",
-    "Python.calendar.executor": "Run",
-    "Python.combine_historical.executor": "Run",
-    "Python.heb_functions.executor": "Run",
-    "Python.room_mapping.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/connor/PycharmProjects/rice/comp_647/assignment_2/glove",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/rice/comp_647/assignment_2/glove&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
@@ -107,11 +107,11 @@
       <recent name="C:\Users\connor\PycharmProjects\trading" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\pretrained_embeddings" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\liar_dataset" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\model_weights" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage\models" />
-      <recent name="C:\Users\connor\PycharmProjects\llm" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -233,14 +233,7 @@
       <workItem from="1728910944952" duration="7003000" />
       <workItem from="1728928966081" duration="11536000" />
       <workItem from="1728997463670" duration="8599000" />
-    </task>
-    <task id="LOCAL-00094" summary="Combined MLP with a CNN and it still sucks">
-      <option name="closed" value="true" />
-      <created>1725758021241</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1725758021242</updated>
+      <workItem from="1729170487752" duration="1890000" />
     </task>
     <task id="LOCAL-00095" summary="It does work! This dataset is really hard to solve is all. Move this CIFAR10 stuff to another place.">
       <option name="closed" value="true" />
@@ -626,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729089689248</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Don't use the broken branch.">
+      <option name="closed" value="true" />
+      <created>1729090338746</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1729090338746</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size." />
     <MESSAGE value="Completing architecture 1. &#10;&#10;Includes skip connections, maxpooling, and conv2d layers.&#10;&#10;Consider upsampling and doing more skip connections for arc2" />
     <MESSAGE value="Increasing number of hidden layers to combat loss plateau" />
     <MESSAGE value="Can't help but think something is still wrong." />
@@ -669,7 +669,8 @@
     <MESSAGE value="LSTM working" />
     <MESSAGE value="You need a better solution to package management" />
     <MESSAGE value="Dropping files that are too big to push to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dropping files that are too big to push to git" />
+    <MESSAGE value="Don't use the broken branch." />
+    <option name="LAST_COMMIT_MESSAGE" value="Don't use the broken branch." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
