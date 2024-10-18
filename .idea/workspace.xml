@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Full run of models.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Final fixes before last run.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,23 +231,7 @@
       <workItem from="1728928966081" duration="11536000" />
       <workItem from="1728997463670" duration="8599000" />
       <workItem from="1729170487752" duration="6764000" />
-      <workItem from="1729256424357" duration="14203000" />
-    </task>
-    <task id="LOCAL-00099" summary="Creating functions for accuracy, loss, and plotting">
-      <option name="closed" value="true" />
-      <created>1725890929761</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1725890929762</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Squashing bugs related to loss/accuracy output from train function. &#10;&#10;Fixed formatting of plots">
-      <option name="closed" value="true" />
-      <created>1725891899010</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1725891899010</updated>
+      <workItem from="1729256424357" duration="19894000" />
     </task>
     <task id="LOCAL-00101" summary="Fixing graph text placement, size formatting">
       <option name="closed" value="true" />
@@ -624,7 +609,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729177157263</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Fixing CUDA">
+      <option name="closed" value="true" />
+      <created>1729275342000</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1729275342000</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Final fixes before last run.">
+      <option name="closed" value="true" />
+      <created>1729276696562</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1729276696562</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,8 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients." />
-    <MESSAGE value="Getting closer on transfer learning. &#10;&#10;I have a version that works, but I haven't tried to hook it up to the training function yet.&#10;&#10;I have another version that works with the training function and has the freeze option but something about creating the nn class is causing a problem with forward propogation." />
     <MESSAGE value="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1." />
     <MESSAGE value="Fixing an issue with the test accuracy function and added a writeup for transfer learning" />
     <MESSAGE value="Building the new training function for the text problem" />
@@ -667,7 +666,9 @@
     <MESSAGE value="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters" />
     <MESSAGE value="Full run works. Could consider grid searching this as well. &#10;&#10;Now just need to run will num_epochs = 1000" />
     <MESSAGE value="Full run of models." />
-    <option name="LAST_COMMIT_MESSAGE" value="Full run of models." />
+    <MESSAGE value="Fixing CUDA" />
+    <MESSAGE value="Final fixes before last run." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final fixes before last run." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
