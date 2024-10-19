@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Final fixes before last run.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing accuracy calc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
@@ -231,15 +231,7 @@
       <workItem from="1728928966081" duration="11536000" />
       <workItem from="1728997463670" duration="8599000" />
       <workItem from="1729170487752" duration="6764000" />
-      <workItem from="1729256424357" duration="19894000" />
-    </task>
-    <task id="LOCAL-00101" summary="Fixing graph text placement, size formatting">
-      <option name="closed" value="true" />
-      <created>1725892708731</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1725892708731</updated>
+      <workItem from="1729256424357" duration="27043000" />
     </task>
     <task id="LOCAL-00102" summary="Finished running initial models. Just need to run final versions with the tuned params and also do ROC curve">
       <option name="closed" value="true" />
@@ -625,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729276696562</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Fixing accuracy calc">
+      <option name="closed" value="true" />
+      <created>1729292785272</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1729292785273</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1." />
     <MESSAGE value="Fixing an issue with the test accuracy function and added a writeup for transfer learning" />
     <MESSAGE value="Building the new training function for the text problem" />
     <MESSAGE value="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing." />
@@ -668,7 +667,8 @@
     <MESSAGE value="Full run of models." />
     <MESSAGE value="Fixing CUDA" />
     <MESSAGE value="Final fixes before last run." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final fixes before last run." />
+    <MESSAGE value="Fixing accuracy calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing accuracy calc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
