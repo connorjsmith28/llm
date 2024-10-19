@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing accuracy calc">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing test accuracy for other models that weren't just the CNN">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
@@ -231,15 +231,9 @@
       <workItem from="1728928966081" duration="11536000" />
       <workItem from="1728997463670" duration="8599000" />
       <workItem from="1729170487752" duration="6764000" />
-      <workItem from="1729256424357" duration="27043000" />
-    </task>
-    <task id="LOCAL-00102" summary="Finished running initial models. Just need to run final versions with the tuned params and also do ROC curve">
-      <option name="closed" value="true" />
-      <created>1725909752483</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1725909752484</updated>
+      <workItem from="1729256424357" duration="27674000" />
+      <workItem from="1729299245514" duration="46000" />
+      <workItem from="1729299343162" duration="1708000" />
     </task>
     <task id="LOCAL-00103" summary="Only ROC left">
       <option name="closed" value="true" />
@@ -625,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729292785273</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Fixing test accuracy for other models that weren't just the CNN">
+      <option name="closed" value="true" />
+      <created>1729298596599</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1729298596599</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing an issue with the test accuracy function and added a writeup for transfer learning" />
     <MESSAGE value="Building the new training function for the text problem" />
     <MESSAGE value="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing." />
     <MESSAGE value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
@@ -668,7 +669,8 @@
     <MESSAGE value="Fixing CUDA" />
     <MESSAGE value="Final fixes before last run." />
     <MESSAGE value="Fixing accuracy calc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing accuracy calc" />
+    <MESSAGE value="Fixing test accuracy for other models that weren't just the CNN" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing test accuracy for other models that weren't just the CNN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
