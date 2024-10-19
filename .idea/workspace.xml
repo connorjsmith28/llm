@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing test accuracy for other models that weren't just the CNN">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Something is funky with the memory allocation. Not sure what fixed it right now.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,15 +234,8 @@
       <workItem from="1729170487752" duration="6764000" />
       <workItem from="1729256424357" duration="27674000" />
       <workItem from="1729299245514" duration="46000" />
-      <workItem from="1729299343162" duration="1708000" />
-    </task>
-    <task id="LOCAL-00103" summary="Only ROC left">
-      <option name="closed" value="true" />
-      <created>1725914551454</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1725914551454</updated>
+      <workItem from="1729299343162" duration="4035000" />
+      <workItem from="1729344896033" duration="8577000" />
     </task>
     <task id="LOCAL-00104" summary="Tracking y_true and y_pred in preparation for ROC">
       <option name="closed" value="true" />
@@ -627,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729298596599</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Something is funky with the memory allocation. Not sure what fixed it right now.">
+      <option name="closed" value="true" />
+      <created>1729301088454</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1729301088454</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Building the new training function for the text problem" />
     <MESSAGE value="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing." />
     <MESSAGE value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
     <MESSAGE value="Adding in embeddings which seems to fix the size problem" />
@@ -670,7 +671,8 @@
     <MESSAGE value="Final fixes before last run." />
     <MESSAGE value="Fixing accuracy calc" />
     <MESSAGE value="Fixing test accuracy for other models that weren't just the CNN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing test accuracy for other models that weren't just the CNN" />
+    <MESSAGE value="Something is funky with the memory allocation. Not sure what fixed it right now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Something is funky with the memory allocation. Not sure what fixed it right now." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
