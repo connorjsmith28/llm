@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Something is funky with the memory allocation. Not sure what fixed it right now.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,33 +66,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
-    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/rice/comp_647/assignment_2/glove&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.base_combine_voo_daily.executor": "Run",
+    "Python.calendar.executor": "Run",
+    "Python.combine_historical.executor": "Run",
+    "Python.heb_functions.executor": "Run",
+    "Python.room_mapping.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/connor/PycharmProjects/guiding_star",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
@@ -236,14 +233,8 @@
       <workItem from="1729299245514" duration="46000" />
       <workItem from="1729299343162" duration="4035000" />
       <workItem from="1729344896033" duration="8577000" />
-    </task>
-    <task id="LOCAL-00104" summary="Tracking y_true and y_pred in preparation for ROC">
-      <option name="closed" value="true" />
-      <created>1725977616475</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1725977616476</updated>
+      <workItem from="1729360986256" duration="151000" />
+      <workItem from="1729606127575" duration="45000" />
     </task>
     <task id="LOCAL-00105" summary="ROC plot">
       <option name="closed" value="true" />
@@ -629,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729301088454</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory.">
+      <option name="closed" value="true" />
+      <created>1729361125345</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1729361125345</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing." />
     <MESSAGE value="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes" />
     <MESSAGE value="Adding in embeddings which seems to fix the size problem" />
     <MESSAGE value="Accuracy at 70%+ even with only a single linear layer. That's crazy" />
@@ -672,7 +670,8 @@
     <MESSAGE value="Fixing accuracy calc" />
     <MESSAGE value="Fixing test accuracy for other models that weren't just the CNN" />
     <MESSAGE value="Something is funky with the memory allocation. Not sure what fixed it right now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Something is funky with the memory allocation. Not sure what fixed it right now." />
+    <MESSAGE value="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
