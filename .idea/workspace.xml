@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Creating git ignore">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Updating data path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/Assignment3_Applied_AE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/Assignment3_Applied_AE.ipynb" afterDir="false" />
@@ -68,33 +68,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.base_combine_voo_daily.executor": "Run",
-    "Python.calendar.executor": "Run",
-    "Python.combine_historical.executor": "Run",
-    "Python.heb_functions.executor": "Run",
-    "Python.room_mapping.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/connor/PycharmProjects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
@@ -237,15 +237,8 @@
       <workItem from="1729344896033" duration="8577000" />
       <workItem from="1729360986256" duration="151000" />
       <workItem from="1729606127575" duration="45000" />
-      <workItem from="1729864840899" duration="1032000" />
-    </task>
-    <task id="LOCAL-00107" summary="Only writing the summary is left">
-      <option name="closed" value="true" />
-      <created>1726150027921</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1726150027921</updated>
+      <workItem from="1729864840899" duration="3561000" />
+      <workItem from="1730120762004" duration="3154000" />
     </task>
     <task id="LOCAL-00108" summary="Adding comment for time printout">
       <option name="closed" value="true" />
@@ -631,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729865133157</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Updating data path">
+      <option name="closed" value="true" />
+      <created>1729877377920</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1729877377920</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Accuracy at 70%+ even with only a single linear layer. That's crazy" />
     <MESSAGE value="Updating accuracy. It's actually bad bc. it had counted each value in the one-hot-encoded tensor in the denominator when the exptected behavior was if all the values in the tensor matched then it was correct, incorrect otherwise." />
     <MESSAGE value="Adding some comments" />
     <MESSAGE value="This model achieves a 22% accuracy. Has these bizarre dips to 0 for extended epochs before shooting back up." />
@@ -674,7 +674,8 @@
     <MESSAGE value="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory." />
     <MESSAGE value="Creating Assignment 3" />
     <MESSAGE value="Creating git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating git ignore" />
+    <MESSAGE value="Updating data path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating data path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
