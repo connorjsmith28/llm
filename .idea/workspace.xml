@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Built Autoencoder with MSELoss">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/Assignment3_Applied_AE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/Assignment3_Applied_AE.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,15 +237,8 @@
       <workItem from="1729360986256" duration="151000" />
       <workItem from="1729606127575" duration="45000" />
       <workItem from="1729864840899" duration="3561000" />
-      <workItem from="1730120762004" duration="4812000" />
-    </task>
-    <task id="LOCAL-00109" summary="Adding comment for time printout">
-      <option name="closed" value="true" />
-      <created>1726150225722</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1726150225722</updated>
+      <workItem from="1730120762004" duration="5162000" />
+      <workItem from="1730134223832" duration="2507000" />
     </task>
     <task id="LOCAL-00110" summary="All outputs computed">
       <option name="closed" value="true" />
@@ -632,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730123950902</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now.">
+      <option name="closed" value="true" />
+      <created>1730125926277</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1730125926277</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding some comments" />
     <MESSAGE value="This model achieves a 22% accuracy. Has these bizarre dips to 0 for extended epochs before shooting back up." />
     <MESSAGE value="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy." />
     <MESSAGE value="Not actually an issue. You're only reporting the valid accuracy and loss. You'd see the training loss continue to go down." />
@@ -675,7 +674,8 @@
     <MESSAGE value="Creating git ignore" />
     <MESSAGE value="Updating data path" />
     <MESSAGE value="Built Autoencoder with MSELoss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Built Autoencoder with MSELoss" />
+    <MESSAGE value="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
