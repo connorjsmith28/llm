@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/Assignment3_Applied_AE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/Assignment3_Applied_AE.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,15 +238,9 @@
       <workItem from="1729606127575" duration="45000" />
       <workItem from="1729864840899" duration="3561000" />
       <workItem from="1730120762004" duration="5162000" />
-      <workItem from="1730134223832" duration="13312000" />
-    </task>
-    <task id="LOCAL-00113" summary="Adding url to langgraph for tutorial on creating llm agents. &#10;&#10;Will create multiple agents that can traverse a manifest.json file, find dependencies, and tell you whether a given field is used downstream and where.">
-      <option name="closed" value="true" />
-      <created>1727311602105</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1727311602105</updated>
+      <workItem from="1730134223832" duration="13345000" />
+      <workItem from="1730160130167" duration="1335000" />
+      <workItem from="1730206883926" duration="4149000" />
     </task>
     <task id="LOCAL-00114" summary="Testing I didn't break the file">
       <option name="closed" value="true" />
@@ -633,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730149865221</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead.">
+      <option name="closed" value="true" />
+      <created>1730150230573</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150230574</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
