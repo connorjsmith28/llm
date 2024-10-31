@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Creating initial GAN code">
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/sample_code/DL_Week10a_GAN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/sample_code/DL_Week10b_cGAN.ipynb" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Defining generator and discriminator.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gans/notebooks/dcgan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/gans/notebooks/dcgan.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gans/notebooks/pokemon_data_prep.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/gans/notebooks/pokemon_data_prep.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,15 +245,9 @@
       <workItem from="1730134223832" duration="13345000" />
       <workItem from="1730160130167" duration="1335000" />
       <workItem from="1730206883926" duration="10167000" />
-      <workItem from="1730293263805" duration="3737000" />
-    </task>
-    <task id="LOCAL-00117" summary="Testing creating grid search">
-      <option name="closed" value="true" />
-      <created>1728398099137</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1728398099138</updated>
+      <workItem from="1730293263805" duration="4607000" />
+      <workItem from="1730379527811" duration="10073000" />
+      <workItem from="1730389706726" duration="3893000" />
     </task>
     <task id="LOCAL-00118" summary="Fixing rand grid search.&#10;&#10;Now just to fix architecture. 128,128 is too large a size coupled with large neuron sizes. Need to conv or pool down to reduce the size.">
       <option name="closed" value="true" />
@@ -637,7 +633,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730293923538</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Defining generator and discriminator.">
+      <option name="closed" value="true" />
+      <created>1730297326183</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1730297326183</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LSTM working" />
     <MESSAGE value="You need a better solution to package management" />
     <MESSAGE value="Dropping files that are too big to push to git" />
     <MESSAGE value="Don't use the broken branch." />
@@ -680,7 +683,8 @@
     <MESSAGE value="Creating random grid search" />
     <MESSAGE value="Finished autoencoder with writeup." />
     <MESSAGE value="Creating initial GAN code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating initial GAN code" />
+    <MESSAGE value="Defining generator and discriminator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining generator and discriminator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

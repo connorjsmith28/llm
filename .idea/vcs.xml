@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code_samples" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dbt_column_lineage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gans" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/guiding_star" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/llm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/plant_health" vcs="Git" />
