@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing loss function code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding model to GPU" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,15 +241,7 @@
       <workItem from="1730293263805" duration="4607000" />
       <workItem from="1730379527811" duration="10073000" />
       <workItem from="1730389706726" duration="4003000" />
-      <workItem from="1730393742355" duration="857000" />
-    </task>
-    <task id="LOCAL-00120" summary="Increasing number of hidden layers to combat loss plateau">
-      <option name="closed" value="true" />
-      <created>1728409471718</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1728409471718</updated>
+      <workItem from="1730393742355" duration="1473000" />
     </task>
     <task id="LOCAL-00121" summary="Can't help but think something is still wrong.">
       <option name="closed" value="true" />
@@ -639,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730393756620</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Adding model to GPU">
+      <option name="closed" value="true" />
+      <created>1730394609745</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1730394609745</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dropping files that are too big to push to git" />
     <MESSAGE value="Don't use the broken branch." />
     <MESSAGE value="Pretrained embeddings functioning now." />
     <MESSAGE value="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters" />
@@ -682,7 +677,8 @@
     <MESSAGE value="Creating initial GAN code" />
     <MESSAGE value="Defining generator and discriminator." />
     <MESSAGE value="Fixing loss function code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing loss function code" />
+    <MESSAGE value="Adding model to GPU" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding model to GPU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
