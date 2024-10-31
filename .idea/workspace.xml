@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing loss function code" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing loss function code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,14 +245,7 @@
       <workItem from="1730293263805" duration="4607000" />
       <workItem from="1730379527811" duration="10073000" />
       <workItem from="1730389706726" duration="4003000" />
-    </task>
-    <task id="LOCAL-00119" summary="Completing architecture 1. &#10;&#10;Includes skip connections, maxpooling, and conv2d layers.&#10;&#10;Consider upsampling and doing more skip connections for arc2">
-      <option name="closed" value="true" />
-      <created>1728405980984</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1728405980984</updated>
+      <workItem from="1730393742355" duration="857000" />
     </task>
     <task id="LOCAL-00120" summary="Increasing number of hidden layers to combat loss plateau">
       <option name="closed" value="true" />
@@ -634,7 +631,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730393634131</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Fixing loss function code">
+      <option name="closed" value="true" />
+      <created>1730393756620</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1730393756620</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
