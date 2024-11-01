@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding model to GPU" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Resizing down to default 32,32">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,15 +245,8 @@
       <workItem from="1730293263805" duration="4607000" />
       <workItem from="1730379527811" duration="10073000" />
       <workItem from="1730389706726" duration="4003000" />
-      <workItem from="1730393742355" duration="1473000" />
-    </task>
-    <task id="LOCAL-00121" summary="Can't help but think something is still wrong.">
-      <option name="closed" value="true" />
-      <created>1728429205802</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1728429205802</updated>
+      <workItem from="1730393742355" duration="2139000" />
+      <workItem from="1730465930446" duration="3938000" />
     </task>
     <task id="LOCAL-00122" summary="Creating arc 1 and 2. Both are unable to learn the underlying problem. If I have time, go back and try adding skip connections back in.">
       <option name="closed" value="true" />
@@ -635,7 +632,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730394609745</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="Resizing down to default 32,32">
+      <option name="closed" value="true" />
+      <created>1730397136761</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1730397136761</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Don't use the broken branch." />
     <MESSAGE value="Pretrained embeddings functioning now." />
     <MESSAGE value="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters" />
     <MESSAGE value="Full run works. Could consider grid searching this as well. &#10;&#10;Now just need to run will num_epochs = 1000" />
@@ -678,7 +682,8 @@
     <MESSAGE value="Defining generator and discriminator." />
     <MESSAGE value="Fixing loss function code" />
     <MESSAGE value="Adding model to GPU" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding model to GPU" />
+    <MESSAGE value="Resizing down to default 32,32" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resizing down to default 32,32" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
