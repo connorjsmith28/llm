@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Resizing down to default 32,32">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
@@ -246,15 +246,8 @@
       <workItem from="1730379527811" duration="10073000" />
       <workItem from="1730389706726" duration="4003000" />
       <workItem from="1730393742355" duration="2139000" />
-      <workItem from="1730465930446" duration="3938000" />
-    </task>
-    <task id="LOCAL-00122" summary="Creating arc 1 and 2. Both are unable to learn the underlying problem. If I have time, go back and try adding skip connections back in.">
-      <option name="closed" value="true" />
-      <created>1728482703969</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1728482703969</updated>
+      <workItem from="1730465930446" duration="4217000" />
+      <workItem from="1730815500148" duration="2459000" />
     </task>
     <task id="LOCAL-00123" summary="Successfully updated input and output layers to inception_v3. &#10;&#10;Now I need 2 versions. One where I don't update the gradients for all but the last layer. And 1 where I update all gradients.">
       <option name="closed" value="true" />
@@ -640,7 +633,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730397136761</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2">
+      <option name="closed" value="true" />
+      <created>1730469922009</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1730469922009</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pretrained embeddings functioning now." />
     <MESSAGE value="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters" />
     <MESSAGE value="Full run works. Could consider grid searching this as well. &#10;&#10;Now just need to run will num_epochs = 1000" />
     <MESSAGE value="Full run of models." />
@@ -683,7 +683,8 @@
     <MESSAGE value="Fixing loss function code" />
     <MESSAGE value="Adding model to GPU" />
     <MESSAGE value="Resizing down to default 32,32" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resizing down to default 32,32" />
+    <MESSAGE value="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
