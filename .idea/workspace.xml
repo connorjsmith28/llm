@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="It works...I think">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,11 +103,11 @@
       <recent name="C:\Users\connor\PycharmProjects\trading" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\comp_647_final\data" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_3\sample_code" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_3" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\pretrained_embeddings" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\liar_dataset" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -253,15 +252,8 @@
       <workItem from="1731075262699" duration="2102000" />
       <workItem from="1731333710809" duration="651000" />
       <workItem from="1731419915206" duration="1206000" />
-      <workItem from="1731455028692" duration="705000" />
-    </task>
-    <task id="LOCAL-00125" summary="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1.">
-      <option name="closed" value="true" />
-      <created>1728500495628</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1728500495628</updated>
+      <workItem from="1731455028692" duration="977000" />
+      <workItem from="1731506700132" duration="8129000" />
     </task>
     <task id="LOCAL-00126" summary="Fixing an issue with the test accuracy function and added a writeup for transfer learning">
       <option name="closed" value="true" />
@@ -647,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730909321671</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary=".">
+      <option name="closed" value="true" />
+      <created>1731506683087</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1731506683088</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Full run of models." />
     <MESSAGE value="Fixing CUDA" />
     <MESSAGE value="Final fixes before last run." />
     <MESSAGE value="Fixing accuracy calc" />
@@ -690,7 +689,8 @@
     <MESSAGE value="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2" />
     <MESSAGE value="Frechet now works for some reason. Now need to do conditional GAN" />
     <MESSAGE value="It works...I think" />
-    <option name="LAST_COMMIT_MESSAGE" value="It works...I think" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
