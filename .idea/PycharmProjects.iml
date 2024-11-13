@@ -8,6 +8,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="plant_identification" />
     <orderEntry type="module" module-name="dbt_column_lineage" />
+    <orderEntry type="module" module-name="comp_647_final" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />

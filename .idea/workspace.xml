@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Frechet now works for some reason. Now need to do conditional GAN">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="It works...I think">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
@@ -248,15 +248,12 @@
       <workItem from="1730393742355" duration="2139000" />
       <workItem from="1730465930446" duration="4217000" />
       <workItem from="1730815500148" duration="7503000" />
-      <workItem from="1730901551029" duration="7710000" />
-    </task>
-    <task id="LOCAL-00124" summary="Getting closer on transfer learning. &#10;&#10;I have a version that works, but I haven't tried to hook it up to the training function yet.&#10;&#10;I have another version that works with the training function and has the freeze option but something about creating the nn class is causing a problem with forward propogation.">
-      <option name="closed" value="true" />
-      <created>1728495557264</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1728495557264</updated>
+      <workItem from="1730901551029" duration="10730000" />
+      <workItem from="1730988567415" duration="620000" />
+      <workItem from="1731075262699" duration="2102000" />
+      <workItem from="1731333710809" duration="651000" />
+      <workItem from="1731419915206" duration="1206000" />
+      <workItem from="1731455028692" duration="705000" />
     </task>
     <task id="LOCAL-00125" summary="Fixed some funky things unique to the inception framework. Namely, it gives 2 sets of output instead of 1.">
       <option name="closed" value="true" />
@@ -642,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730818084234</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="It works...I think">
+      <option name="closed" value="true" />
+      <created>1730909321671</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1730909321671</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Full run works. Could consider grid searching this as well. &#10;&#10;Now just need to run will num_epochs = 1000" />
     <MESSAGE value="Full run of models." />
     <MESSAGE value="Fixing CUDA" />
     <MESSAGE value="Final fixes before last run." />
@@ -685,7 +689,8 @@
     <MESSAGE value="Resizing down to default 32,32" />
     <MESSAGE value="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2" />
     <MESSAGE value="Frechet now works for some reason. Now need to do conditional GAN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frechet now works for some reason. Now need to do conditional GAN" />
+    <MESSAGE value="It works...I think" />
+    <option name="LAST_COMMIT_MESSAGE" value="It works...I think" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
