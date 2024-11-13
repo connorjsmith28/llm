@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment=".">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,31 +254,7 @@
       <workItem from="1731333710809" duration="651000" />
       <workItem from="1731419915206" duration="1206000" />
       <workItem from="1731455028692" duration="977000" />
-      <workItem from="1731506700132" duration="8129000" />
-    </task>
-    <task id="LOCAL-00126" summary="Fixing an issue with the test accuracy function and added a writeup for transfer learning">
-      <option name="closed" value="true" />
-      <created>1728566846867</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1728566846867</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Building the new training function for the text problem">
-      <option name="closed" value="true" />
-      <created>1728915692611</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1728915692612</updated>
-    </task>
-    <task id="LOCAL-00128" summary="There is something off with my input shapes. It might be that instead of 1D I need to make this 2D but add a 1-dimension wrapping the whole thing.">
-      <option name="closed" value="true" />
-      <created>1728917258010</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1728917258010</updated>
+      <workItem from="1731506700132" duration="13797000" />
     </task>
     <task id="LOCAL-00129" summary="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes">
       <option name="closed" value="true" />
@@ -647,7 +624,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731506683088</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
+      <option name="closed" value="true" />
+      <created>1731514988978</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1731514988978</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
+      <option name="closed" value="true" />
+      <created>1731515014998</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1731515014998</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
+      <option name="closed" value="true" />
+      <created>1731515603203</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1731515603203</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +666,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing CUDA" />
     <MESSAGE value="Final fixes before last run." />
     <MESSAGE value="Fixing accuracy calc" />
     <MESSAGE value="Fixing test accuracy for other models that weren't just the CNN" />
@@ -690,7 +690,8 @@
     <MESSAGE value="Frechet now works for some reason. Now need to do conditional GAN" />
     <MESSAGE value="It works...I think" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
