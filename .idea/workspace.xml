@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="It still sucks">
+      <change afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_3/gan.ipynb" afterDir="false" />
@@ -49,7 +50,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rice" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/comp_647_final" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -254,15 +255,8 @@
       <workItem from="1731333710809" duration="651000" />
       <workItem from="1731419915206" duration="1206000" />
       <workItem from="1731455028692" duration="977000" />
-      <workItem from="1731506700132" duration="13797000" />
-    </task>
-    <task id="LOCAL-00129" summary="Accuracy and possibly loss calculation is off. Likely due to outputs/ input shapes">
-      <option name="closed" value="true" />
-      <created>1728917988133</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1728917988133</updated>
+      <workItem from="1731506700132" duration="15013000" />
+      <workItem from="1731592846481" duration="3770000" />
     </task>
     <task id="LOCAL-00130" summary="Adding in embeddings which seems to fix the size problem">
       <option name="closed" value="true" />
@@ -648,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731515603203</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="It still sucks">
+      <option name="closed" value="true" />
+      <created>1731522761595</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1731522761595</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Final fixes before last run." />
     <MESSAGE value="Fixing accuracy calc" />
     <MESSAGE value="Fixing test accuracy for other models that weren't just the CNN" />
     <MESSAGE value="Something is funky with the memory allocation. Not sure what fixed it right now." />
@@ -691,7 +692,8 @@
     <MESSAGE value="It works...I think" />
     <MESSAGE value="." />
     <MESSAGE value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
+    <MESSAGE value="It still sucks" />
+    <option name="LAST_COMMIT_MESSAGE" value="It still sucks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
