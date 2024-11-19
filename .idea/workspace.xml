@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding synthetic data">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Base CNN code created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice" beforeDir="false" afterPath="$PROJECT_DIR$/rice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_NLP.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,15 +254,9 @@
       <workItem from="1731419915206" duration="1206000" />
       <workItem from="1731455028692" duration="977000" />
       <workItem from="1731506700132" duration="15013000" />
-      <workItem from="1731592846481" duration="6034000" />
-    </task>
-    <task id="LOCAL-00131" summary="Accuracy at 70%+ even with only a single linear layer. That's crazy">
-      <option name="closed" value="true" />
-      <created>1728933839044</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1728933839044</updated>
+      <workItem from="1731592846481" duration="6199000" />
+      <workItem from="1731939196403" duration="1898000" />
+      <workItem from="1732024764211" duration="1798000" />
     </task>
     <task id="LOCAL-00132" summary="Updating accuracy. It's actually bad bc. it had counted each value in the one-hot-encoded tensor in the denominator when the exptected behavior was if all the values in the tensor matched then it was correct, incorrect otherwise.">
       <option name="closed" value="true" />
@@ -650,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731596670774</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="Base CNN code created">
+      <option name="closed" value="true" />
+      <created>1731599059171</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1731599059171</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing test accuracy for other models that weren't just the CNN" />
     <MESSAGE value="Something is funky with the memory allocation. Not sure what fixed it right now." />
     <MESSAGE value="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory." />
     <MESSAGE value="Creating Assignment 3" />
@@ -693,7 +692,8 @@
     <MESSAGE value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
     <MESSAGE value="It still sucks" />
     <MESSAGE value="Adding synthetic data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding synthetic data" />
+    <MESSAGE value="Base CNN code created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base CNN code created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
