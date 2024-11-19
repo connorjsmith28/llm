@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Base CNN code created">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Trained models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
     </list>
@@ -256,23 +256,7 @@
       <workItem from="1731506700132" duration="15013000" />
       <workItem from="1731592846481" duration="6199000" />
       <workItem from="1731939196403" duration="1898000" />
-      <workItem from="1732024764211" duration="1798000" />
-    </task>
-    <task id="LOCAL-00132" summary="Updating accuracy. It's actually bad bc. it had counted each value in the one-hot-encoded tensor in the denominator when the exptected behavior was if all the values in the tensor matched then it was correct, incorrect otherwise.">
-      <option name="closed" value="true" />
-      <created>1728934915805</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1728934915805</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Adding some comments">
-      <option name="closed" value="true" />
-      <created>1728935097240</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1728935097240</updated>
+      <workItem from="1732024764211" duration="3059000" />
     </task>
     <task id="LOCAL-00134" summary="This model achieves a 22% accuracy. Has these bizarre dips to 0 for extended epochs before shooting back up.">
       <option name="closed" value="true" />
@@ -650,7 +634,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731599059171</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="Adding in all relevant plotting and grid search functions for the CNN">
+      <option name="closed" value="true" />
+      <created>1732026591501</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1732026591501</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Trained models">
+      <option name="closed" value="true" />
+      <created>1732027296787</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1732027296788</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,8 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Something is funky with the memory allocation. Not sure what fixed it right now." />
-    <MESSAGE value="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory." />
     <MESSAGE value="Creating Assignment 3" />
     <MESSAGE value="Creating git ignore" />
     <MESSAGE value="Updating data path" />
@@ -693,7 +691,9 @@
     <MESSAGE value="It still sucks" />
     <MESSAGE value="Adding synthetic data" />
     <MESSAGE value="Base CNN code created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base CNN code created" />
+    <MESSAGE value="Adding in all relevant plotting and grid search functions for the CNN" />
+    <MESSAGE value="Trained models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trained models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
