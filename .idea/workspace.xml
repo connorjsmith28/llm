@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding transformer encoder code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
     </list>
@@ -257,15 +257,8 @@
       <workItem from="1731592846481" duration="6199000" />
       <workItem from="1731939196403" duration="1898000" />
       <workItem from="1732024764211" duration="8938000" />
-      <workItem from="1732112405855" duration="2423000" />
-    </task>
-    <task id="LOCAL-00135" summary="There might be an issue with your linear layers. Adding layers decreases performance which shouldn't be possible. 1 and 2 layers makes expected graphs. 3 produces a model that doesn't fail but has odd sustained drops to 0 accuracy. 4,5+ yield 0 accuracy.">
-      <option name="closed" value="true" />
-      <created>1728937723390</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1728937723390</updated>
+      <workItem from="1732112405855" duration="2608000" />
+      <workItem from="1732115146482" duration="404000" />
     </task>
     <task id="LOCAL-00136" summary="Not actually an issue. You're only reporting the valid accuracy and loss. You'd see the training loss continue to go down.">
       <option name="closed" value="true" />
@@ -651,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732027874724</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Adding transformer encoder code">
+      <option name="closed" value="true" />
+      <created>1732115071640</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1732115071640</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating git ignore" />
     <MESSAGE value="Updating data path" />
     <MESSAGE value="Built Autoencoder with MSELoss" />
     <MESSAGE value="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now." />
@@ -694,7 +694,8 @@
     <MESSAGE value="Adding in all relevant plotting and grid search functions for the CNN" />
     <MESSAGE value="Trained models" />
     <MESSAGE value="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above." />
+    <MESSAGE value="Adding transformer encoder code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding transformer encoder code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
