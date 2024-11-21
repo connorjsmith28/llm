@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding transformer encoder code">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Transformer Encoder is REALLY slow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
     </list>
@@ -259,14 +259,8 @@
       <workItem from="1732024764211" duration="8938000" />
       <workItem from="1732112405855" duration="2608000" />
       <workItem from="1732115146482" duration="404000" />
-    </task>
-    <task id="LOCAL-00136" summary="Not actually an issue. You're only reporting the valid accuracy and loss. You'd see the training loss continue to go down.">
-      <option name="closed" value="true" />
-      <created>1728938056433</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1728938056433</updated>
+      <workItem from="1732115559070" duration="824000" />
+      <workItem from="1732197855277" duration="2679000" />
     </task>
     <task id="LOCAL-00137" summary="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper.">
       <option name="closed" value="true" />
@@ -652,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732115071640</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Transformer Encoder is REALLY slow">
+      <option name="closed" value="true" />
+      <created>1732115785434</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1732115785434</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +672,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updating data path" />
     <MESSAGE value="Built Autoencoder with MSELoss" />
     <MESSAGE value="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now." />
     <MESSAGE value="Fixed data structure for test noise, norm, and denoised sets." />
@@ -695,7 +696,8 @@
     <MESSAGE value="Trained models" />
     <MESSAGE value="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above." />
     <MESSAGE value="Adding transformer encoder code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding transformer encoder code" />
+    <MESSAGE value="Transformer Encoder is REALLY slow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transformer Encoder is REALLY slow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
