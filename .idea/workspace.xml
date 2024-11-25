@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Transformer Encoder is REALLY slow">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Bag of Words might not work as an input given its variable length.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
     </list>
@@ -260,15 +260,11 @@
       <workItem from="1732112405855" duration="2608000" />
       <workItem from="1732115146482" duration="404000" />
       <workItem from="1732115559070" duration="824000" />
-      <workItem from="1732197855277" duration="2679000" />
-    </task>
-    <task id="LOCAL-00137" summary="Accuracy and loss are not acting as good proxies for how good the model actually is. The models achieve an accuracy in line with the linked paper.">
-      <option name="closed" value="true" />
-      <created>1728939955316</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1728939955316</updated>
+      <workItem from="1732197855277" duration="2747000" />
+      <workItem from="1732391637924" duration="16000" />
+      <workItem from="1732543868520" duration="1682000" />
+      <workItem from="1732545583089" duration="125000" />
+      <workItem from="1732545715959" duration="893000" />
     </task>
     <task id="LOCAL-00138" summary="Starting LSTM&#10;&#10;Not having success reducing overfitting for CNN. Adding more layers also seems to make it both worse and take longer.">
       <option name="closed" value="true" />
@@ -654,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732115785434</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Bag of Words might not work as an input given its variable length.">
+      <option name="closed" value="true" />
+      <created>1732200744173</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1732200744173</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +676,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Built Autoencoder with MSELoss" />
     <MESSAGE value="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now." />
     <MESSAGE value="Fixed data structure for test noise, norm, and denoised sets." />
     <MESSAGE value="creating Autoencoder with CNN layers" />
@@ -697,7 +700,8 @@
     <MESSAGE value="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above." />
     <MESSAGE value="Adding transformer encoder code" />
     <MESSAGE value="Transformer Encoder is REALLY slow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transformer Encoder is REALLY slow" />
+    <MESSAGE value="Bag of Words might not work as an input given its variable length." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bag of Words might not work as an input given its variable length." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
