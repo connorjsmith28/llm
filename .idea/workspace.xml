@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Bag of Words might not work as an input given its variable length.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="initializing twitter_roberta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
     </list>
@@ -264,15 +264,8 @@
       <workItem from="1732391637924" duration="16000" />
       <workItem from="1732543868520" duration="1682000" />
       <workItem from="1732545583089" duration="125000" />
-      <workItem from="1732545715959" duration="893000" />
-    </task>
-    <task id="LOCAL-00138" summary="Starting LSTM&#10;&#10;Not having success reducing overfitting for CNN. Adding more layers also seems to make it both worse and take longer.">
-      <option name="closed" value="true" />
-      <created>1728999317335</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1728999317335</updated>
+      <workItem from="1732545715959" duration="943000" />
+      <workItem from="1732630065932" duration="4016000" />
     </task>
     <task id="LOCAL-00139" summary="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm.">
       <option name="closed" value="true" />
@@ -658,7 +651,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732200744173</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="initializing twitter_roberta">
+      <option name="closed" value="true" />
+      <created>1732546649327</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1732546649327</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +677,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Need to align noise, norm, and denoised data. They're held in all kinds of stuff now." />
     <MESSAGE value="Fixed data structure for test noise, norm, and denoised sets." />
     <MESSAGE value="creating Autoencoder with CNN layers" />
     <MESSAGE value="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead." />
@@ -701,7 +701,8 @@
     <MESSAGE value="Adding transformer encoder code" />
     <MESSAGE value="Transformer Encoder is REALLY slow" />
     <MESSAGE value="Bag of Words might not work as an input given its variable length." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bag of Words might not work as an input given its variable length." />
+    <MESSAGE value="initializing twitter_roberta" />
+    <option name="LAST_COMMIT_MESSAGE" value="initializing twitter_roberta" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
