@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="initializing twitter_roberta">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Getting twitter-roberta working.">
+      <change afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp_647_final/Self_driving_Car_CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/Self_driving_Car_CNN.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,15 +267,11 @@
       <workItem from="1732543868520" duration="1682000" />
       <workItem from="1732545583089" duration="125000" />
       <workItem from="1732545715959" duration="943000" />
-      <workItem from="1732630065932" duration="4016000" />
-    </task>
-    <task id="LOCAL-00139" summary="Can't figure out lstm state inputs.&#10;&#10;Part of the problem seems to be input. I'm not sure how to train and evaluate a model whose input varies since input size seems to be important for the lstm.">
-      <option name="closed" value="true" />
-      <created>1729001861913</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1729001861913</updated>
+      <workItem from="1732630065932" duration="5614000" />
+      <workItem from="1732658380868" duration="1361000" />
+      <workItem from="1732670523834" duration="927000" />
+      <workItem from="1732716470798" duration="4117000" />
+      <workItem from="1733147956391" duration="2445000" />
     </task>
     <task id="LOCAL-00140" summary="LSTM working">
       <option name="closed" value="true" />
@@ -659,7 +657,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732546649327</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="Getting twitter-roberta working.">
+      <option name="closed" value="true" />
+      <created>1732634316979</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1732634316980</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,7 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed data structure for test noise, norm, and denoised sets." />
     <MESSAGE value="creating Autoencoder with CNN layers" />
     <MESSAGE value="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead." />
     <MESSAGE value="Creating random grid search" />
@@ -702,7 +707,8 @@
     <MESSAGE value="Transformer Encoder is REALLY slow" />
     <MESSAGE value="Bag of Words might not work as an input given its variable length." />
     <MESSAGE value="initializing twitter_roberta" />
-    <option name="LAST_COMMIT_MESSAGE" value="initializing twitter_roberta" />
+    <MESSAGE value="Getting twitter-roberta working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting twitter-roberta working." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,11 +717,6 @@
           <url>notebook://C:/Users/connor/PycharmProjects/rice/comp_647/assignment_2/Assignment2_Applied_CV_preprocessing.ipynb</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook://C:/Users/connor/PycharmProjects/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook://C:/Users/connor/PycharmProjects/rice/comp_647/assgnment_1/Assignment1_Applied.ipynb</url>
