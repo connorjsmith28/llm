@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Last batch seems to not concat a previous prediction">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
     </list>
@@ -48,7 +48,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/comp_647_final" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rice" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -272,15 +272,7 @@
       <workItem from="1733147956391" duration="10673000" />
       <workItem from="1733159034917" duration="1207000" />
       <workItem from="1733163814645" duration="664000" />
-      <workItem from="1733234296341" duration="7215000" />
-    </task>
-    <task id="LOCAL-00144" summary="Pretrained embeddings functioning now.">
-      <option name="closed" value="true" />
-      <created>1729172561748</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1729172561748</updated>
+      <workItem from="1733234296341" duration="8735000" />
     </task>
     <task id="LOCAL-00145" summary="Embeddings now work with CNN. But CNN time has slowed dramatically. Need to apply pooling to decrease parameters">
       <option name="closed" value="true" />
@@ -666,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733240510887</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement.">
+      <option name="closed" value="true" />
+      <created>1733241892285</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1733241892285</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating initial GAN code" />
     <MESSAGE value="Defining generator and discriminator." />
     <MESSAGE value="Fixing loss function code" />
     <MESSAGE value="Adding model to GPU" />
@@ -709,7 +708,8 @@
     <MESSAGE value="Trying to add in an initial binary classifier. Output currently needs to be reshaped before concatenating." />
     <MESSAGE value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
     <MESSAGE value="Last batch seems to not concat a previous prediction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last batch seems to not concat a previous prediction" />
+    <MESSAGE value="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
