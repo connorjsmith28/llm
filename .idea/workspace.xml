@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Cleaning up code and making a new notebook.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Trying to concat the binary predicted values to the train dataloader for the multiclassifier">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,23 +269,10 @@
       <workItem from="1732658380868" duration="1361000" />
       <workItem from="1732670523834" duration="927000" />
       <workItem from="1732716470798" duration="4117000" />
-      <workItem from="1733147956391" duration="8436000" />
-    </task>
-    <task id="LOCAL-00141" summary="You need a better solution to package management">
-      <option name="closed" value="true" />
-      <created>1729087362507</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1729087362507</updated>
-    </task>
-    <task id="LOCAL-00142" summary="Dropping files that are too big to push to git">
-      <option name="closed" value="true" />
-      <created>1729089689248</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1729089689248</updated>
+      <workItem from="1733147956391" duration="10673000" />
+      <workItem from="1733159034917" duration="1207000" />
+      <workItem from="1733163814645" duration="664000" />
+      <workItem from="1733234296341" duration="6164000" />
     </task>
     <task id="LOCAL-00143" summary="Don't use the broken branch.">
       <option name="closed" value="true" />
@@ -662,7 +650,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733150432298</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="Trying to add in an initial binary classifier. Output currently needs to be reshaped before concatenating.">
+      <option name="closed" value="true" />
+      <created>1733156492375</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1733156492375</updated>
+    </task>
+    <task id="LOCAL-00191" summary="Trying to concat the binary predicted values to the train dataloader for the multiclassifier">
+      <option name="closed" value="true" />
+      <created>1733158691994</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1733158691994</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,8 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead." />
-    <MESSAGE value="Creating random grid search" />
     <MESSAGE value="Finished autoencoder with writeup." />
     <MESSAGE value="Creating initial GAN code" />
     <MESSAGE value="Defining generator and discriminator." />
@@ -705,7 +707,9 @@
     <MESSAGE value="initializing twitter_roberta" />
     <MESSAGE value="Getting twitter-roberta working." />
     <MESSAGE value="Cleaning up code and making a new notebook." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up code and making a new notebook." />
+    <MESSAGE value="Trying to add in an initial binary classifier. Output currently needs to be reshaped before concatenating." />
+    <MESSAGE value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
