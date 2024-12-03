@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Trying to concat the binary predicted values to the train dataloader for the multiclassifier">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Last batch seems to not concat a previous prediction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
     </list>
@@ -272,15 +272,7 @@
       <workItem from="1733147956391" duration="10673000" />
       <workItem from="1733159034917" duration="1207000" />
       <workItem from="1733163814645" duration="664000" />
-      <workItem from="1733234296341" duration="6164000" />
-    </task>
-    <task id="LOCAL-00143" summary="Don't use the broken branch.">
-      <option name="closed" value="true" />
-      <created>1729090338746</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1729090338746</updated>
+      <workItem from="1733234296341" duration="7215000" />
     </task>
     <task id="LOCAL-00144" summary="Pretrained embeddings functioning now.">
       <option name="closed" value="true" />
@@ -666,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733158691994</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Last batch seems to not concat a previous prediction">
+      <option name="closed" value="true" />
+      <created>1733240510887</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1733240510887</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished autoencoder with writeup." />
     <MESSAGE value="Creating initial GAN code" />
     <MESSAGE value="Defining generator and discriminator." />
     <MESSAGE value="Fixing loss function code" />
@@ -709,7 +708,8 @@
     <MESSAGE value="Cleaning up code and making a new notebook." />
     <MESSAGE value="Trying to add in an initial binary classifier. Output currently needs to be reshaped before concatenating." />
     <MESSAGE value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
+    <MESSAGE value="Last batch seems to not concat a previous prediction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last batch seems to not concat a previous prediction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
