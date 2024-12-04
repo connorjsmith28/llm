@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Ok, so this doesn't actually achieve a better acc. Can still try to pair the best binary classifier with the extra data. The real issue seems to be the embedding. THere doesn't seem to be a clean way to add in the targets into the embedding. Might be better to added the output labels to one of the last linear steps">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="ONE OF THEM LEARNED IT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
     </list>
@@ -273,15 +273,7 @@
       <workItem from="1733159034917" duration="1207000" />
       <workItem from="1733163814645" duration="664000" />
       <workItem from="1733234296341" duration="8930000" />
-      <workItem from="1733319264306" duration="3459000" />
-    </task>
-    <task id="LOCAL-00146" summary="Full run works. Could consider grid searching this as well. &#10;&#10;Now just need to run will num_epochs = 1000">
-      <option name="closed" value="true" />
-      <created>1729174227915</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1729174227915</updated>
+      <workItem from="1733319264306" duration="9617000" />
     </task>
     <task id="LOCAL-00147" summary="Full run of models.">
       <option name="closed" value="true" />
@@ -667,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733244118718</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="ONE OF THEM LEARNED IT">
+      <option name="closed" value="true" />
+      <created>1733325027126</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1733325027126</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing loss function code" />
     <MESSAGE value="Adding model to GPU" />
     <MESSAGE value="Resizing down to default 32,32" />
     <MESSAGE value="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2" />
@@ -710,7 +709,8 @@
     <MESSAGE value="Last batch seems to not concat a previous prediction" />
     <MESSAGE value="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement." />
     <MESSAGE value="Ok, so this doesn't actually achieve a better acc. Can still try to pair the best binary classifier with the extra data. The real issue seems to be the embedding. THere doesn't seem to be a clean way to add in the targets into the embedding. Might be better to added the output labels to one of the last linear steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ok, so this doesn't actually achieve a better acc. Can still try to pair the best binary classifier with the extra data. The real issue seems to be the embedding. THere doesn't seem to be a clean way to add in the targets into the embedding. Might be better to added the output labels to one of the last linear steps" />
+    <MESSAGE value="ONE OF THEM LEARNED IT" />
+    <option name="LAST_COMMIT_MESSAGE" value="ONE OF THEM LEARNED IT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
