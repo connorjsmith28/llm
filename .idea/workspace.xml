@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="ONE OF THEM LEARNED IT">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding in graphs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,15 +274,10 @@
       <workItem from="1733159034917" duration="1207000" />
       <workItem from="1733163814645" duration="664000" />
       <workItem from="1733234296341" duration="8930000" />
-      <workItem from="1733319264306" duration="11234000" />
-    </task>
-    <task id="LOCAL-00148" summary="Fixing CUDA">
-      <option name="closed" value="true" />
-      <created>1729275342000</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1729275342000</updated>
+      <workItem from="1733319264306" duration="11639000" />
+      <workItem from="1733336886440" duration="36000" />
+      <workItem from="1733407419823" duration="4965000" />
+      <workItem from="1733426484536" duration="1619000" />
     </task>
     <task id="LOCAL-00149" summary="Final fixes before last run.">
       <option name="closed" value="true" />
@@ -667,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733333200726</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="Adding in graphs">
+      <option name="closed" value="true" />
+      <created>1733336080831</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1733336080831</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +689,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding model to GPU" />
     <MESSAGE value="Resizing down to default 32,32" />
     <MESSAGE value="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2" />
     <MESSAGE value="Frechet now works for some reason. Now need to do conditional GAN" />
@@ -710,7 +713,8 @@
     <MESSAGE value="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement." />
     <MESSAGE value="Ok, so this doesn't actually achieve a better acc. Can still try to pair the best binary classifier with the extra data. The real issue seems to be the embedding. THere doesn't seem to be a clean way to add in the targets into the embedding. Might be better to added the output labels to one of the last linear steps" />
     <MESSAGE value="ONE OF THEM LEARNED IT" />
-    <option name="LAST_COMMIT_MESSAGE" value="ONE OF THEM LEARNED IT" />
+    <MESSAGE value="Adding in graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding in graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
