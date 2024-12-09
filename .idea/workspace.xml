@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding confusion matrix">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing confusion matrix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
     </list>
@@ -279,15 +279,9 @@
       <workItem from="1733426484536" duration="5478000" />
       <workItem from="1733493742794" duration="14736000" />
       <workItem from="1733530673024" duration="4000" />
-      <workItem from="1733590901743" duration="4875000" />
-    </task>
-    <task id="LOCAL-00152" summary="Something is funky with the memory allocation. Not sure what fixed it right now.">
-      <option name="closed" value="true" />
-      <created>1729301088454</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1729301088454</updated>
+      <workItem from="1733590901743" duration="7141000" />
+      <workItem from="1733615794712" duration="780000" />
+      <workItem from="1733699766142" duration="4293000" />
     </task>
     <task id="LOCAL-00153" summary="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory.">
       <option name="closed" value="true" />
@@ -673,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733521420449</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Fixing confusion matrix">
+      <option name="closed" value="true" />
+      <created>1733596245606</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1733596245607</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Frechet now works for some reason. Now need to do conditional GAN" />
     <MESSAGE value="It works...I think" />
     <MESSAGE value="." />
     <MESSAGE value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
@@ -716,7 +717,8 @@
     <MESSAGE value="Adding in graphs" />
     <MESSAGE value="Fixing Roc plot" />
     <MESSAGE value="Adding confusion matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding confusion matrix" />
+    <MESSAGE value="Fixing confusion matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing confusion matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
