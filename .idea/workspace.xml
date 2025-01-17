@@ -4,9 +4,115 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Fixing confusion matrix">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Dropping synthetic data to resolve an issue with splitting the training data.">
+      <change afterPath="$PROJECT_DIR$/3d_printing/3d_printing/hexagon_planter.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3d_printing/3d_printing/test.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/annotated-COMP_647_Final_Project_Paper-1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/binary_classifier.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/data/sample.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/data/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/models.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/predictions.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/binary_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/3d_printing/hexagon_planter.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/3d_printing/test.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/data/DnD_BasicRules_2018.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/data/DnD_BasicRules_2018.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/data/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/data/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/data/test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/data/test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/dnd_rag.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/dnd_rag.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/ignore.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/ignore.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/rice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/.idea/portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/advanced_dbt_example/tableau_parameters_dbt.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/advanced_dbt_example/tableau_parameters_dbt.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/calendar_example/calendar_example.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/calendar_example/calendar_example.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/core.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/core.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/fct_ecc_order_line_items.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/fct_ecc_order_line_items.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/fct_ecc_orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/fct_ecc_orders.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_customer_partner__add_person_detail.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customer_partner__add_person_detail.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_customer_partner__counts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customer_partner__counts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_customers_01__add_sales_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customers_01__add_sales_info.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_customers_02__add_special_group_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customers_02__add_special_group_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_customers_03__add_customer_hierarchy.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customers_03__add_customer_hierarchy.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_order_contacts_01__add_account_number.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_order_contacts_01__add_account_number.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_order_line_items_01__add_rejection_reason_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_order_line_items_01__add_rejection_reason_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_order_line_items_02__add_route_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_order_line_items_02__add_route_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_orders_01__add_order_category_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_orders_01__add_order_category_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_orders_02__add_order_status.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_orders_02__add_order_status.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_person__add_title.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_person__add_title.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_person_title__add_email_phone.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_person_title__add_email_phone.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_products_01__add_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_products_01__add_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_products_01__clean_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_products_01__clean_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/ecc_products_02__add_species.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_products_02__add_species.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/core/intermediate/intermediate.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/intermediate.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/date_by_period_example/date_by_period.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/date_by_period_example/date_by_period.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_adr2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_adr2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_adr6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_adr6.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_adrp.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_adrp.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_kna1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_kna1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_knvh.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_knvh.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_knvk.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_knvk.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_knvv.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_knvv.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_makt.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_makt.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_mara.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_mara.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_mvke.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_mvke.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_tsad2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tsad2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_tvagt.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvagt.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_tvakt.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvakt.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_tvrot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvrot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_tvv3t.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvv3t.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_vbak.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbak.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_vbap.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbap.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_vbpa.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbpa.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_vbuk.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbuk.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/base_ecc_zhybris_orderlog_merge.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_zhybris_orderlog_merge.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/base/incremental_fct.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/base/incremental_fct.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/src_ecc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/src_ecc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_academic_titles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_academic_titles.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customer_contact.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_contact.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customer_email_address.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_email_address.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customer_hierarchy.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_hierarchy.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customer_master_contact_partner.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_master_contact_partner.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customer_telephone.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_telephone.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customers__general_information.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customers__general_information.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customers__sales_information.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customers__sales_information.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_customers__special_group_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customers__special_group_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_finished_products.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_finished_products.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_hybris_merge_orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_hybris_merge_orders.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_category_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_category_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_contacts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_contacts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_line_item_rejection_reasons.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_line_item_rejection_reasons.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_line_items.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_line_items.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_ship_to_customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_ship_to_customers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_sold_to_customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_sold_to_customers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_status.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_status.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_order_type_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_type_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_orders.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_orders__route_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_orders__route_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_orders_netvalue.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_orders_netvalue.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_person_title.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_person_title.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_product_descriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_product_descriptions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_product_status.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_product_status.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/ecc/stg_ecc_rfm_mapping_segments.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_rfm_mapping_segments.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/incremental_load_example/test" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/incremental_load_example/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/macro_example/Macro by period.sql" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/macro_example/Macro by period.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/seed/seed.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/seed/seed.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/seed/seed_incremental_fct.csv" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/seed/seed_incremental_fct.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/seed/seed_incremental_fct_archives.csv" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/dbt/seed/seed_incremental_fct_archives.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +154,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/comp_647_final" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rice" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -67,47 +173,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
-    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.base_combine_voo_daily.executor": "Run",
+    "Python.calendar.executor": "Run",
+    "Python.combine_historical.executor": "Run",
+    "Python.heb_functions.executor": "Run",
+    "Python.room_mapping.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/connor/PycharmProjects/portfolio/sentiment_analysis_cnn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage\models" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
       <recent name="C:\Users\connor\PycharmProjects\trading\models" />
-      <recent name="C:\Users\connor\PycharmProjects\trading" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
+      <recent name="C:\Users\connor\PycharmProjects\portfolio\dbt" />
+      <recent name="C:\Users\connor\PycharmProjects\llm\llama_3" />
+      <recent name="C:\Users\connor\PycharmProjects\3d_printing" />
       <recent name="C:\Users\connor\PycharmProjects\comp_647_final\data" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_3\sample_code" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_3" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\pretrained_embeddings" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\liar_dataset" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -281,15 +387,18 @@
       <workItem from="1733530673024" duration="4000" />
       <workItem from="1733590901743" duration="7141000" />
       <workItem from="1733615794712" duration="780000" />
-      <workItem from="1733699766142" duration="4293000" />
-    </task>
-    <task id="LOCAL-00153" summary="Final Assignment 2 effort. If I come back to this, the NLP problem could be improved by adding batches. Non-batched seems to take up too much memory.">
-      <option name="closed" value="true" />
-      <created>1729361125345</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1729361125345</updated>
+      <workItem from="1733699766142" duration="4695000" />
+      <workItem from="1733933956851" duration="697000" />
+      <workItem from="1733934670512" duration="695000" />
+      <workItem from="1733935545238" duration="12000" />
+      <workItem from="1733935779820" duration="247000" />
+      <workItem from="1733971348986" duration="21000" />
+      <workItem from="1733973073706" duration="22000" />
+      <workItem from="1734042964794" duration="142000" />
+      <workItem from="1734450942432" duration="11000" />
+      <workItem from="1736624977337" duration="1008000" />
+      <workItem from="1736698222274" duration="694000" />
+      <workItem from="1737122319322" duration="1237000" />
     </task>
     <task id="LOCAL-00154" summary="Creating Assignment 3">
       <option name="closed" value="true" />
@@ -675,7 +784,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733596245607</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="Dropping synthetic data to resolve an issue with splitting the training data.">
+      <option name="closed" value="true" />
+      <created>1733711541516</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1733711541516</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,7 +810,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="It works...I think" />
     <MESSAGE value="." />
     <MESSAGE value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
     <MESSAGE value="It still sucks" />
@@ -718,7 +834,8 @@
     <MESSAGE value="Fixing Roc plot" />
     <MESSAGE value="Adding confusion matrix" />
     <MESSAGE value="Fixing confusion matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing confusion matrix" />
+    <MESSAGE value="Dropping synthetic data to resolve an issue with splitting the training data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dropping synthetic data to resolve an issue with splitting the training data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
