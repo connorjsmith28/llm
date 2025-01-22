@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool">
-      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/README.md" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding in functions for REACT. Created check_parents which returns a list of parent nodes for the current model.">
+      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/models/marts/analytics/analytics_test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/models/marts/base/base_test_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/models/marts/stage/stg.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/models/marts/base/test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/models/marts/base/base_test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/models/marts/base/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/models/marts/base/base.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/models/marts/stage/stg_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/models/marts/stage/stg_test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/compiled/column_lineage_dbt/models/marts/stage/stg_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/compiled/column_lineage_dbt/models/marts/stage/stg_test.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/graph.gpickle" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/graph.gpickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/partial_parse.msgpack" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/partial_parse.msgpack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/run/column_lineage_dbt/models/marts/stage/stg_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/run/column_lineage_dbt/models/marts/stage/stg_test.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -301,15 +309,7 @@
       <workItem from="1736698222274" duration="694000" />
       <workItem from="1737122319322" duration="2013000" />
       <workItem from="1737559011971" duration="435000" />
-      <workItem from="1737559851431" duration="5802000" />
-    </task>
-    <task id="LOCAL-00156" summary="Updating data path">
-      <option name="closed" value="true" />
-      <created>1729877377920</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1729877377920</updated>
+      <workItem from="1737559851431" duration="9256000" />
     </task>
     <task id="LOCAL-00157" summary="Built Autoencoder with MSELoss">
       <option name="closed" value="true" />
@@ -695,7 +695,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737561876018</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Adding in functions for REACT. Created check_parents which returns a list of parent nodes for the current model.">
+      <option name="closed" value="true" />
+      <created>1737566055413</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1737566055413</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +721,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="It still sucks" />
     <MESSAGE value="Adding synthetic data" />
     <MESSAGE value="Base CNN code created" />
     <MESSAGE value="Adding in all relevant plotting and grid search functions for the CNN" />
@@ -738,7 +745,8 @@
     <MESSAGE value="Dropping synthetic data to resolve an issue with splitting the training data." />
     <MESSAGE value="Moving things into portfolio" />
     <MESSAGE value="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool" />
+    <MESSAGE value="Adding in functions for REACT. Created check_parents which returns a list of parent nodes for the current model." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding in functions for REACT. Created check_parents which returns a list of parent nodes for the current model." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
