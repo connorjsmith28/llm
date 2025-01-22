@@ -4,177 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Moving things into portfolio">
-      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/ignore.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/ollama_server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/.idea/portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/advanced_dbt_example/tableau_parameters_dbt.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/calendar_example/calendar_example.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/core.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/fct_ecc_order_line_items.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/fct_ecc_orders.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_customer_partner__add_person_detail.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_customer_partner__counts.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_customers_01__add_sales_info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_customers_02__add_special_group_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_customers_03__add_customer_hierarchy.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_order_contacts_01__add_account_number.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_order_line_items_01__add_rejection_reason_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_order_line_items_02__add_route_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_orders_01__add_order_category_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_orders_02__add_order_status.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_person__add_title.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_person_title__add_email_phone.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_products_01__add_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_products_01__clean_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/ecc_products_02__add_species.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/core/intermediate/intermediate.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/date_by_period_example/date_by_period.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_adr2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_adr6.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_adrp.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_kna1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_knvh.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_knvk.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_knvv.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_makt.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_mara.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_mvke.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_tsad2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_tvagt.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_tvakt.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_tvrot.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_tvv3t.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_vbak.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_vbap.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_vbpa.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_vbuk.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/base_ecc_zhybris_orderlog_merge.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/base/incremental_fct.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/src_ecc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_academic_titles.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customer_contact.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customer_email_address.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customer_hierarchy.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customer_master_contact_partner.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customer_telephone.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customers__general_information.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customers__sales_information.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_customers__special_group_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_finished_products.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_hybris_merge_orders.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_category_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_contacts.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_line_item_rejection_reasons.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_line_items.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_ship_to_customers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_sold_to_customers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_status.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_order_type_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_orders.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_orders__route_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_orders_netvalue.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_person_title.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_product_descriptions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_product_status.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/ecc/stg_ecc_rfm_mapping_segments.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/incremental_load_example/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/macro_example/Macro by period.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/seed/seed.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/seed/seed_incremental_fct.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_projects/dbt/seed/seed_incremental_fct_archives.csv" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool">
+      <change afterPath="$PROJECT_DIR$/dbt_column_lineage/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/.idea/portfolio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/advanced_dbt_example/tableau_parameters_dbt.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/calendar_example/calendar_example.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/core.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/fct_ecc_order_line_items.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/fct_ecc_orders.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customer_partner__add_person_detail.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customer_partner__counts.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customers_01__add_sales_info.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customers_02__add_special_group_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_customers_03__add_customer_hierarchy.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_order_contacts_01__add_account_number.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_order_line_items_01__add_rejection_reason_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_order_line_items_02__add_route_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_orders_01__add_order_category_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_orders_02__add_order_status.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_person__add_title.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_person_title__add_email_phone.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_products_01__add_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_products_01__clean_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/ecc_products_02__add_species.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/core/intermediate/intermediate.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/date_by_period_example/date_by_period.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_adr2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_adr6.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_adrp.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_kna1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_knvh.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_knvk.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_knvv.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_makt.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_mara.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_mvke.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tsad2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvagt.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvakt.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvrot.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_tvv3t.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbak.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbap.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbpa.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_vbuk.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/base_ecc_zhybris_orderlog_merge.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/base/incremental_fct.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/src_ecc.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_academic_titles.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_contact.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_email_address.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_hierarchy.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_master_contact_partner.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customer_telephone.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customers__general_information.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customers__sales_information.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_customers__special_group_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_finished_products.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_hybris_merge_orders.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_category_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_contacts.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_line_item_rejection_reasons.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_line_items.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_ship_to_customers.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_sold_to_customers.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_status.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_order_type_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_orders.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_orders__route_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_orders_netvalue.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_person_title.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_product_descriptions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_product_status.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/ecc/stg_ecc_rfm_mapping_segments.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/incremental_load_example/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/macro_example/Macro by period.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/seed/seed.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/seed/seed_incremental_fct.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/dbt/seed/seed_incremental_fct_archives.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/logs/dbt.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/graph.gpickle" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/graph.gpickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/graph_summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/target/run_results.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,15 +301,7 @@
       <workItem from="1736698222274" duration="694000" />
       <workItem from="1737122319322" duration="2013000" />
       <workItem from="1737559011971" duration="435000" />
-      <workItem from="1737559851431" duration="1920000" />
-    </task>
-    <task id="LOCAL-00155" summary="Creating git ignore">
-      <option name="closed" value="true" />
-      <created>1729865133157</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1729865133157</updated>
+      <workItem from="1737559851431" duration="5802000" />
     </task>
     <task id="LOCAL-00156" summary="Updating data path">
       <option name="closed" value="true" />
@@ -857,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737133506589</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool">
+      <option name="closed" value="true" />
+      <created>1737561876018</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1737561876018</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -875,7 +713,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training." />
     <MESSAGE value="It still sucks" />
     <MESSAGE value="Adding synthetic data" />
     <MESSAGE value="Base CNN code created" />
@@ -900,7 +737,8 @@
     <MESSAGE value="Fixing confusion matrix" />
     <MESSAGE value="Dropping synthetic data to resolve an issue with splitting the training data." />
     <MESSAGE value="Moving things into portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving things into portfolio" />
+    <MESSAGE value="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,5 +762,6 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$room_mapping.coverage" NAME="room_mapping Coverage Results" MODIFIED="1710375757125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raspberry_pi" />
     <SUITE FILE_PATH="coverage/PycharmProjects$calendar.coverage" NAME="calendar Coverage Results" MODIFIED="1719582815076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/base" />
     <SUITE FILE_PATH="coverage/PycharmProjects$heb_functions.coverage" NAME="heb_functions Coverage Results" MODIFIED="1722782466855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heb_webstore" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ollama_server.coverage" NAME="ollama_server Coverage Results" MODIFIED="1737561615566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbt_column_lineage" />
   </component>
 </project>
