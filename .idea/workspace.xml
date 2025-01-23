@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Seems to be working on a trivial example. Need to add in loops so it's not so manual. Work out more advanced cases.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,15 +295,7 @@
       <workItem from="1737122319322" duration="2013000" />
       <workItem from="1737559011971" duration="435000" />
       <workItem from="1737559851431" duration="12699000" />
-      <workItem from="1737578227594" duration="2025000" />
-    </task>
-    <task id="LOCAL-00160" summary="creating Autoencoder with CNN layers">
-      <option name="closed" value="true" />
-      <created>1730148316101</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1730148316101</updated>
+      <workItem from="1737578227594" duration="2873000" />
     </task>
     <task id="LOCAL-00161" summary="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead.">
       <option name="closed" value="true" />
@@ -690,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737576180368</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better.">
+      <option name="closed" value="true" />
+      <created>1737580505501</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1737580505501</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +707,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trained models" />
     <MESSAGE value="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above." />
     <MESSAGE value="Adding transformer encoder code" />
     <MESSAGE value="Transformer Encoder is REALLY slow" />
@@ -733,7 +731,8 @@
     <MESSAGE value="Created functions to parse manifest json. &#10;&#10;Now, llm needs to read sql file and determine if a given field is present in the file. If it is, then it needs to figure out which parent node(s) it comes from" />
     <MESSAGE value="Confirmed that the LLM can identify fields in a sql file if fed as a string." />
     <MESSAGE value="Seems to be working on a trivial example. Need to add in loops so it's not so manual. Work out more advanced cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Seems to be working on a trivial example. Need to add in loops so it's not so manual. Work out more advanced cases." />
+    <MESSAGE value="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better." />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
