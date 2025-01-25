@@ -4,8 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Creating comp 652 folder and assignment 1">
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/data_level0.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/header.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/length.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/link_lists.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/data/DnD_BasicRules_2018.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/data/chroma.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/data/test.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/dnd_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/rag/ignore.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/import_and_cleaning_scripts/vantage_api_key.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp_647_final/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/comp_647_final/models.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_column_lineage/data_lineage.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/binary_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/models.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/data_level0.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/header.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/length.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/data/5e645ea7-7c11-4a62-a04a-689376e2fac0/link_lists.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/data/DnD_BasicRules_2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/data/chroma.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/data/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/dnd_rag.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag/ignore.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/import_and_cleaning_scripts/base_import_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/import_and_cleaning_scripts/base_import_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -47,7 +73,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dbt_column_lineage" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/portfolio" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -79,7 +105,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/llm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/trading&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,18 +122,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\trading" />
       <recent name="C:\Users\connor\PycharmProjects\llm" />
       <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage\models" />
-      <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
+      <recent name="C:\Users\connor\PycharmProjects\portfolio" />
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
       <recent name="C:\Users\connor\PycharmProjects\work_projects" />
-      <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
-      <recent name="C:\Users\connor\PycharmProjects\portfolio\dbt" />
-      <recent name="C:\Users\connor\PycharmProjects\llm\llama_3" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -296,14 +322,10 @@
       <workItem from="1737559011971" duration="435000" />
       <workItem from="1737559851431" duration="12699000" />
       <workItem from="1737578227594" duration="2873000" />
-    </task>
-    <task id="LOCAL-00161" summary="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead.">
-      <option name="closed" value="true" />
-      <created>1730149865221</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1730149865221</updated>
+      <workItem from="1737648846536" duration="1355000" />
+      <workItem from="1737727708854" duration="1697000" />
+      <workItem from="1737749663621" duration="4229000" />
+      <workItem from="1737770574974" duration="632000" />
     </task>
     <task id="LOCAL-00162" summary="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead.">
       <option name="closed" value="true" />
@@ -689,7 +711,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737580505501</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="Creating comp 652 folder and assignment 1">
+      <option name="closed" value="true" />
+      <created>1737648962683</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1737648962683</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,7 +737,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above." />
     <MESSAGE value="Adding transformer encoder code" />
     <MESSAGE value="Transformer Encoder is REALLY slow" />
     <MESSAGE value="Bag of Words might not work as an input given its variable length." />
@@ -732,7 +761,8 @@
     <MESSAGE value="Confirmed that the LLM can identify fields in a sql file if fed as a string." />
     <MESSAGE value="Seems to be working on a trivial example. Need to add in loops so it's not so manual. Work out more advanced cases." />
     <MESSAGE value="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better." />
-    <option name="LAST_COMMIT_MESSAGE" value="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better." />
+    <MESSAGE value="Creating comp 652 folder and assignment 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating comp 652 folder and assignment 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
