@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Removing key where it shouldn't be.">
+      <change afterPath="$PROJECT_DIR$/llm/rag/hf_token.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/rag/dnd_rag.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/dnd_rag.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/rag/ignore.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/ignore.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -47,7 +50,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dbt_column_lineage" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/llm" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -66,48 +69,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
-    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ollama_server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/llm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.base_combine_voo_daily.executor": "Run",
+    "Python.calendar.executor": "Run",
+    "Python.combine_historical.executor": "Run",
+    "Python.heb_functions.executor": "Run",
+    "Python.ollama_server.executor": "Run",
+    "Python.room_mapping.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/connor/PycharmProjects/llm/rag",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\llm\rag" />
+      <recent name="C:\Users\connor\PycharmProjects\trading" />
       <recent name="C:\Users\connor\PycharmProjects\llm" />
       <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
-      <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage\models" />
-      <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
+      <recent name="C:\Users\connor\PycharmProjects\portfolio" />
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652" />
       <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
       <recent name="C:\Users\connor\PycharmProjects\work_projects" />
-      <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
-      <recent name="C:\Users\connor\PycharmProjects\portfolio\dbt" />
-      <recent name="C:\Users\connor\PycharmProjects\llm\llama_3" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -296,30 +299,11 @@
       <workItem from="1737559011971" duration="435000" />
       <workItem from="1737559851431" duration="12699000" />
       <workItem from="1737578227594" duration="2873000" />
-    </task>
-    <task id="LOCAL-00161" summary="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead.">
-      <option name="closed" value="true" />
-      <created>1730149865221</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1730149865221</updated>
-    </task>
-    <task id="LOCAL-00162" summary="Adding activation function dramatically slows down convergence for CNNs. Not having an activation function makes all the prediction values look the same. Might confirm if they actually are the same or not. Not sure the lower loss of not having ReLU is better. Consider trying LeakyReLU instead.">
-      <option name="closed" value="true" />
-      <created>1730150230573</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1730150230574</updated>
-    </task>
-    <task id="LOCAL-00163" summary="Creating random grid search">
-      <option name="closed" value="true" />
-      <created>1730211101156</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1730211101156</updated>
+      <workItem from="1737648846536" duration="1355000" />
+      <workItem from="1737727708854" duration="1697000" />
+      <workItem from="1737749663621" duration="4229000" />
+      <workItem from="1737770574974" duration="632000" />
+      <workItem from="1737836304541" duration="378000" />
     </task>
     <task id="LOCAL-00164" summary="Finished autoencoder with writeup.">
       <option name="closed" value="true" />
@@ -689,7 +673,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737580505501</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="Creating comp 652 folder and assignment 1">
+      <option name="closed" value="true" />
+      <created>1737648962683</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1737648962683</updated>
+    </task>
+    <task id="LOCAL-00211" summary="More cleaning up.">
+      <option name="closed" value="true" />
+      <created>1737836380930</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1737836380930</updated>
+    </task>
+    <task id="LOCAL-00212" summary="Removing key where it shouldn't be.">
+      <option name="closed" value="true" />
+      <created>1737836617859</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1737836617859</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,9 +715,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above." />
-    <MESSAGE value="Adding transformer encoder code" />
-    <MESSAGE value="Transformer Encoder is REALLY slow" />
     <MESSAGE value="Bag of Words might not work as an input given its variable length." />
     <MESSAGE value="initializing twitter_roberta" />
     <MESSAGE value="Getting twitter-roberta working." />
@@ -732,7 +737,10 @@
     <MESSAGE value="Confirmed that the LLM can identify fields in a sql file if fed as a string." />
     <MESSAGE value="Seems to be working on a trivial example. Need to add in loops so it's not so manual. Work out more advanced cases." />
     <MESSAGE value="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better." />
-    <option name="LAST_COMMIT_MESSAGE" value="Need to tweak the prompt more. It's not recursively checking each model. I also need to structure the output better." />
+    <MESSAGE value="Creating comp 652 folder and assignment 1" />
+    <MESSAGE value="More cleaning up." />
+    <MESSAGE value="Removing key where it shouldn't be." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing key where it shouldn't be." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
