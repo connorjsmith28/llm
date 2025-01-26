@@ -5,10 +5,224 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Removing key where it shouldn't be.">
-      <change afterPath="$PROJECT_DIR$/llm/rag/hf_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comp_647_final/.idea/comp_647_final.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiding_star/.idea/guiding_star.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiding_star/.idea/guidingstar_repo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.idea/trading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/.ipynb_checkpoints/explore-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/analytics/.ipynb_checkpoints/analytics_voo-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/analytics/.ipynb_checkpoints/voo_trading_definitions-checkpoint.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/analytics/analytics_voo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/analytics/analytics_voo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/analytics/voo_trading_definitions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/calendar/calendar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/calendar/calendar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/ema/voo_ema.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/fred_data/CPALTT01USM657N.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/fred_data/DFF.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/fred_data/EXPINF10YR.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/fred_data/GDPC1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/fred_data/RSXFS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/fred_data/T10YFF.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/fred_data/UNRATE.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/macdext/voo_macdext.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/obv/voo_obv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/full_voo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2010_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2010_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2010_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2010_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2011_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2012_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2013_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2014_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2015_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2016_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2017_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2018_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2019_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2020_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2021_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2022_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_05.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_07.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2023_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2024_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2024_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/base/voo_intraday/voo_2024_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/stage/stage_calendar/stage_calendar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/stage/stage_calendar/stage_calendar.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/data/stage/stage_ema.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/import_and_cleaning_scripts/.ipynb_checkpoints/base_combine_voo_daily-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/import_and_cleaning_scripts/.ipynb_checkpoints/base_import_data-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/import_and_cleaning_scripts/base_combine_voo_daily.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/import_and_cleaning_scripts/base_import_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/import_and_cleaning_scripts/ignore.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/import_and_cleaning_scripts/vantage_api_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/models/.ipynb_checkpoints/gru-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/models/.ipynb_checkpoints/knn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/models/.ipynb_checkpoints/ltsm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/models/gru.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/models/knn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/models/ltsm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/models/time_series_split_explore.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/visuals/.ipynb_checkpoints/explore-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/visuals/explore.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/trading/visuals/pairplot_scatter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_647/assgnment_1/.idea/assgnment_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/import_and_cleaning_scripts/ignore.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/rag/dnd_rag.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/dnd_rag.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/rag/ignore.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/ignore.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/binary_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/binary_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/predictions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/sentiment_analysis_cnn/predictions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/models/gru.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/gru.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +264,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/llm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/portfolio" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -82,7 +296,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/connor/PycharmProjects/llm/rag",
+    "last_opened_file_path": "C:/Users/connor/PycharmProjects/portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,11 +313,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\portfolio" />
+      <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
       <recent name="C:\Users\connor\PycharmProjects\llm\rag" />
       <recent name="C:\Users\connor\PycharmProjects\trading" />
       <recent name="C:\Users\connor\PycharmProjects\llm" />
-      <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
@@ -303,15 +517,7 @@
       <workItem from="1737727708854" duration="1697000" />
       <workItem from="1737749663621" duration="4229000" />
       <workItem from="1737770574974" duration="632000" />
-      <workItem from="1737836304541" duration="378000" />
-    </task>
-    <task id="LOCAL-00164" summary="Finished autoencoder with writeup.">
-      <option name="closed" value="true" />
-      <created>1730217395231</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1730217395231</updated>
+      <workItem from="1737836304541" duration="13312000" />
     </task>
     <task id="LOCAL-00165" summary="Creating initial GAN code">
       <option name="closed" value="true" />
@@ -697,7 +903,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737836617859</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="Removing key where it shouldn't be.">
+      <option name="closed" value="true" />
+      <created>1737836687753</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1737836687753</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
