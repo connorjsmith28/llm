@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Getting initial code template to work.">
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding embeddings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_652/Assignment1-1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_1/Assignment1-1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_652/COMP652_NLP_Assignment1(1).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_652/simpsons_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_1/simpsons_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,23 +303,8 @@
       <workItem from="1737770574974" duration="632000" />
       <workItem from="1737836304541" duration="13980000" />
       <workItem from="1738344307840" duration="1967000" />
-      <workItem from="1738590633117" duration="1357000" />
-    </task>
-    <task id="LOCAL-00167" summary="Fixing loss function code">
-      <option name="closed" value="true" />
-      <created>1730393634130</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1730393634131</updated>
-    </task>
-    <task id="LOCAL-00168" summary="Fixing loss function code">
-      <option name="closed" value="true" />
-      <created>1730393756620</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1730393756620</updated>
+      <workItem from="1738590633117" duration="3436000" />
+      <workItem from="1738677480530" duration="2570000" />
     </task>
     <task id="LOCAL-00169" summary="Adding model to GPU">
       <option name="closed" value="true" />
@@ -700,7 +682,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738345160709</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="Adding glove models and calculating cosine similarities.">
+      <option name="closed" value="true" />
+      <created>1738592066977</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592066977</updated>
+    </task>
+    <task id="LOCAL-00217" summary="Adding embeddings">
+      <option name="closed" value="true" />
+      <created>1738592409226</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592409226</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,8 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Getting twitter-roberta working." />
-    <MESSAGE value="Cleaning up code and making a new notebook." />
     <MESSAGE value="Trying to add in an initial binary classifier. Output currently needs to be reshaped before concatenating." />
     <MESSAGE value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
     <MESSAGE value="Last batch seems to not concat a previous prediction" />
@@ -743,7 +739,9 @@
     <MESSAGE value="Removing key where it shouldn't be." />
     <MESSAGE value="completed binary model build" />
     <MESSAGE value="Getting initial code template to work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting initial code template to work." />
+    <MESSAGE value="Adding glove models and calculating cosine similarities." />
+    <MESSAGE value="Adding embeddings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding embeddings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
