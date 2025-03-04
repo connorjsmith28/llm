@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Removing key where it shouldn't be.">
-      <change afterPath="$PROJECT_DIR$/llm/rag/hf_token.py" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Tenatively done with assignment 1">
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/rag/dnd_rag.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/dnd_rag.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/rag/ignore.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/llm/rag/ignore.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/llm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rice" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -69,48 +69,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.base_combine_voo_daily.executor": "Run",
-    "Python.calendar.executor": "Run",
-    "Python.combine_historical.executor": "Run",
-    "Python.heb_functions.executor": "Run",
-    "Python.ollama_server.executor": "Run",
-    "Python.room_mapping.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/connor/PycharmProjects/llm/rag",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ollama_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\portfolio" />
+      <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
       <recent name="C:\Users\connor\PycharmProjects\llm\rag" />
       <recent name="C:\Users\connor\PycharmProjects\trading" />
       <recent name="C:\Users\connor\PycharmProjects\llm" />
-      <recent name="C:\Users\connor\PycharmProjects\portfolio\sentiment_analysis_cnn" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_647\assignment_2\glove" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_2" />
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_1" />
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652" />
       <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
       <recent name="C:\Users\connor\PycharmProjects\portfolio" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652" />
-      <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
-      <recent name="C:\Users\connor\PycharmProjects\work_projects" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -303,55 +303,21 @@
       <workItem from="1737727708854" duration="1697000" />
       <workItem from="1737749663621" duration="4229000" />
       <workItem from="1737770574974" duration="632000" />
-      <workItem from="1737836304541" duration="378000" />
-    </task>
-    <task id="LOCAL-00164" summary="Finished autoencoder with writeup.">
-      <option name="closed" value="true" />
-      <created>1730217395231</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1730217395231</updated>
-    </task>
-    <task id="LOCAL-00165" summary="Creating initial GAN code">
-      <option name="closed" value="true" />
-      <created>1730293923538</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1730293923538</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Defining generator and discriminator.">
-      <option name="closed" value="true" />
-      <created>1730297326183</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1730297326183</updated>
-    </task>
-    <task id="LOCAL-00167" summary="Fixing loss function code">
-      <option name="closed" value="true" />
-      <created>1730393634130</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1730393634131</updated>
-    </task>
-    <task id="LOCAL-00168" summary="Fixing loss function code">
-      <option name="closed" value="true" />
-      <created>1730393756620</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1730393756620</updated>
-    </task>
-    <task id="LOCAL-00169" summary="Adding model to GPU">
-      <option name="closed" value="true" />
-      <created>1730394609745</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1730394609745</updated>
+      <workItem from="1737836304541" duration="13980000" />
+      <workItem from="1738344307840" duration="1967000" />
+      <workItem from="1738590633117" duration="3436000" />
+      <workItem from="1738677480530" duration="2727000" />
+      <workItem from="1738770073754" duration="1534000" />
+      <workItem from="1738850248824" duration="2725000" />
+      <workItem from="1739197543825" duration="1044000" />
+      <workItem from="1739283088871" duration="1573000" />
+      <workItem from="1739374390512" duration="677000" />
+      <workItem from="1739394804401" duration="1676000" />
+      <workItem from="1739801173877" duration="617000" />
+      <workItem from="1740407301057" duration="594000" />
+      <workItem from="1740492112104" duration="902000" />
+      <workItem from="1740579198152" duration="1268000" />
+      <workItem from="1740665734117" duration="616000" />
     </task>
     <task id="LOCAL-00170" summary="Resizing down to default 32,32">
       <option name="closed" value="true" />
@@ -697,7 +663,55 @@
       <option name="project" value="LOCAL" />
       <updated>1737836617859</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="Removing key where it shouldn't be.">
+      <option name="closed" value="true" />
+      <created>1737836687753</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1737836687753</updated>
+    </task>
+    <task id="LOCAL-00214" summary="completed binary model build">
+      <option name="closed" value="true" />
+      <created>1737859748085</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1737859748085</updated>
+    </task>
+    <task id="LOCAL-00215" summary="Getting initial code template to work.">
+      <option name="closed" value="true" />
+      <created>1738345160709</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1738345160709</updated>
+    </task>
+    <task id="LOCAL-00216" summary="Adding glove models and calculating cosine similarities.">
+      <option name="closed" value="true" />
+      <created>1738592066977</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592066977</updated>
+    </task>
+    <task id="LOCAL-00217" summary="Adding embeddings">
+      <option name="closed" value="true" />
+      <created>1738592409226</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592409226</updated>
+    </task>
+    <task id="LOCAL-00218" summary="Tenatively done with assignment 1">
+      <option name="closed" value="true" />
+      <created>1738680208859</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1738680208859</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,11 +729,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bag of Words might not work as an input given its variable length." />
-    <MESSAGE value="initializing twitter_roberta" />
-    <MESSAGE value="Getting twitter-roberta working." />
-    <MESSAGE value="Cleaning up code and making a new notebook." />
-    <MESSAGE value="Trying to add in an initial binary classifier. Output currently needs to be reshaped before concatenating." />
     <MESSAGE value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
     <MESSAGE value="Last batch seems to not concat a previous prediction" />
     <MESSAGE value="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement." />
@@ -740,7 +749,12 @@
     <MESSAGE value="Creating comp 652 folder and assignment 1" />
     <MESSAGE value="More cleaning up." />
     <MESSAGE value="Removing key where it shouldn't be." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing key where it shouldn't be." />
+    <MESSAGE value="completed binary model build" />
+    <MESSAGE value="Getting initial code template to work." />
+    <MESSAGE value="Adding glove models and calculating cosine similarities." />
+    <MESSAGE value="Adding embeddings" />
+    <MESSAGE value="Tenatively done with assignment 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tenatively done with assignment 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
