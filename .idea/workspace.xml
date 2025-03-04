@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding embeddings">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Tenatively done with assignment 1">
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" afterDir="false" />
     </list>
@@ -104,11 +106,11 @@
       <recent name="C:\Users\connor\PycharmProjects\llm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_2" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_1" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_652" />
       <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
       <recent name="C:\Users\connor\PycharmProjects\portfolio" />
-      <recent name="C:\Users\connor\PycharmProjects\dbt_column_lineage" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -304,15 +306,18 @@
       <workItem from="1737836304541" duration="13980000" />
       <workItem from="1738344307840" duration="1967000" />
       <workItem from="1738590633117" duration="3436000" />
-      <workItem from="1738677480530" duration="2570000" />
-    </task>
-    <task id="LOCAL-00169" summary="Adding model to GPU">
-      <option name="closed" value="true" />
-      <created>1730394609745</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1730394609745</updated>
+      <workItem from="1738677480530" duration="2727000" />
+      <workItem from="1738770073754" duration="1534000" />
+      <workItem from="1738850248824" duration="2725000" />
+      <workItem from="1739197543825" duration="1044000" />
+      <workItem from="1739283088871" duration="1573000" />
+      <workItem from="1739374390512" duration="677000" />
+      <workItem from="1739394804401" duration="1676000" />
+      <workItem from="1739801173877" duration="617000" />
+      <workItem from="1740407301057" duration="594000" />
+      <workItem from="1740492112104" duration="902000" />
+      <workItem from="1740579198152" duration="1268000" />
+      <workItem from="1740665734117" duration="616000" />
     </task>
     <task id="LOCAL-00170" summary="Resizing down to default 32,32">
       <option name="closed" value="true" />
@@ -698,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738592409226</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Tenatively done with assignment 1">
+      <option name="closed" value="true" />
+      <created>1738680208859</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1738680208859</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,7 +729,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying to add in an initial binary classifier. Output currently needs to be reshaped before concatenating." />
     <MESSAGE value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
     <MESSAGE value="Last batch seems to not concat a previous prediction" />
     <MESSAGE value="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement." />
@@ -741,7 +753,8 @@
     <MESSAGE value="Getting initial code template to work." />
     <MESSAGE value="Adding glove models and calculating cosine similarities." />
     <MESSAGE value="Adding embeddings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding embeddings" />
+    <MESSAGE value="Tenatively done with assignment 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tenatively done with assignment 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
