@@ -1,1 +1,1 @@
-huggingfacehub_api_token = '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'
+huggingfacehub_api_token = 'test_key'
