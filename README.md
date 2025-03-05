@@ -1,1 +1,1 @@
-
+This RAG has been built to help DnD players understand particular aspects of the rule book. Simply type in your request at the end of the script relating to DnD and the model will retrieve the answer from the embedded rule book. 
