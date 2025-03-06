@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Tenatively done with assignment 1">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Data preprocessing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_1/COMP652_NLP_Assignment1(1).ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,9 +79,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/PycharmProjects/portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/connor/Desktop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -317,15 +319,10 @@
       <workItem from="1740579198152" duration="1268000" />
       <workItem from="1740665734117" duration="616000" />
       <workItem from="1741052298975" duration="763000" />
-      <workItem from="1741097198147" duration="3211000" />
-    </task>
-    <task id="LOCAL-00171" summary="Issues with frechet. Might try to upscale images to get it working with inception and then try it on resnet50v2">
-      <option name="closed" value="true" />
-      <created>1730469922009</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1730469922009</updated>
+      <workItem from="1741097198147" duration="5406000" />
+      <workItem from="1741183703834" duration="468000" />
+      <workItem from="1741191855851" duration="2051000" />
+      <workItem from="1741270141740" duration="7268000" />
     </task>
     <task id="LOCAL-00172" summary="Frechet now works for some reason. Now need to do conditional GAN">
       <option name="closed" value="true" />
@@ -711,7 +708,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741052330422</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Data preprocessing">
+      <option name="closed" value="true" />
+      <created>1741100434469</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1741100434470</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,7 +734,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying to concat the binary predicted values to the train dataloader for the multiclassifier" />
     <MESSAGE value="Last batch seems to not concat a previous prediction" />
     <MESSAGE value="Some of these worked really well! One model got up to 81% accuracy! Next, should combine the best binary classifier with the best multiclassifier. Right now, they're essentially randomly paired and there is room for improvement." />
     <MESSAGE value="Ok, so this doesn't actually achieve a better acc. Can still try to pair the best binary classifier with the extra data. The real issue seems to be the embedding. THere doesn't seem to be a clean way to add in the targets into the embedding. Might be better to added the output labels to one of the last linear steps" />
@@ -754,7 +758,8 @@
     <MESSAGE value="Adding glove models and calculating cosine similarities." />
     <MESSAGE value="Adding embeddings" />
     <MESSAGE value="Tenatively done with assignment 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tenatively done with assignment 1" />
+    <MESSAGE value="Data preprocessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data preprocessing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
