@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding in batching and lstm model.&#10;&#10;Still need to add AUROC graph">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT">
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/convlstm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,15 +327,8 @@
       <workItem from="1741191855851" duration="2051000" />
       <workItem from="1741270141740" duration="10632000" />
       <workItem from="1741291477408" duration="14504000" />
-      <workItem from="1741362260447" duration="6893000" />
-    </task>
-    <task id="LOCAL-00175" summary="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
-      <option name="closed" value="true" />
-      <created>1731514988978</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1731514988978</updated>
+      <workItem from="1741362260447" duration="7561000" />
+      <workItem from="1741379827391" duration="3707000" />
     </task>
     <task id="LOCAL-00176" summary="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
       <option name="closed" value="true" />
@@ -717,7 +714,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741367843631</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT">
+      <option name="closed" value="true" />
+      <created>1741370905689</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1741370905689</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,7 +740,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ONE OF THEM LEARNED IT" />
     <MESSAGE value="Adding in graphs" />
     <MESSAGE value="Fixing Roc plot" />
     <MESSAGE value="Adding confusion matrix" />
@@ -760,7 +764,8 @@
     <MESSAGE value="Initial run appears to work. &#10;&#10;Need to add graph for accuracy and loss over time.&#10;&#10;Need to add ROC curve&#10;&#10;Need to add random grid search" />
     <MESSAGE value="Adding plotting, you don't need to keep track of MSE since the loss function is already the MSE. You only keep both if they were different, like CrossEntropyLoss and accuracy." />
     <MESSAGE value="Adding in batching and lstm model.&#10;&#10;Still need to add AUROC graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding in batching and lstm model.&#10;&#10;Still need to add AUROC graph" />
+    <MESSAGE value="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
