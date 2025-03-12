@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT">
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/convlstm.py" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Tried adding ConvLSTM but it's not working. I don't understand what it is expecting as the input shape. Maybe I'll fix it later. For now, I threw the block in but didn't actually have it run. So it's really just a second lstm with dif values so the output between the two doesn't look exactly the same.">
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_647/assignment_2/Assignment2_Applied_CV.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/models/ltsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models/ltsm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -328,15 +325,10 @@
       <workItem from="1741270141740" duration="10632000" />
       <workItem from="1741291477408" duration="14504000" />
       <workItem from="1741362260447" duration="7561000" />
-      <workItem from="1741379827391" duration="3707000" />
-    </task>
-    <task id="LOCAL-00176" summary="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
-      <option name="closed" value="true" />
-      <created>1731515014998</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1731515014998</updated>
+      <workItem from="1741379827391" duration="3996000" />
+      <workItem from="1741617346706" duration="2529000" />
+      <workItem from="1741785286806" duration="4952000" />
+      <workItem from="1741798563298" duration="6107000" />
     </task>
     <task id="LOCAL-00177" summary="Adding solo vs. tandem training branch. Training solo can help one of the two models overcome large loss differences before resuming tandem training.">
       <option name="closed" value="true" />
@@ -722,7 +714,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741370905689</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Tried adding ConvLSTM but it's not working. I don't understand what it is expecting as the input shape. Maybe I'll fix it later. For now, I threw the block in but didn't actually have it run. So it's really just a second lstm with dif values so the output between the two doesn't look exactly the same.">
+      <option name="closed" value="true" />
+      <created>1741383803741</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1741383803741</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,7 +740,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding in graphs" />
     <MESSAGE value="Fixing Roc plot" />
     <MESSAGE value="Adding confusion matrix" />
     <MESSAGE value="Fixing confusion matrix" />
@@ -765,7 +764,8 @@
     <MESSAGE value="Adding plotting, you don't need to keep track of MSE since the loss function is already the MSE. You only keep both if they were different, like CrossEntropyLoss and accuracy." />
     <MESSAGE value="Adding in batching and lstm model.&#10;&#10;Still need to add AUROC graph" />
     <MESSAGE value="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT" />
+    <MESSAGE value="Tried adding ConvLSTM but it's not working. I don't understand what it is expecting as the input shape. Maybe I'll fix it later. For now, I threw the block in but didn't actually have it run. So it's really just a second lstm with dif values so the output between the two doesn't look exactly the same." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried adding ConvLSTM but it's not working. I don't understand what it is expecting as the input shape. Maybe I'll fix it later. For now, I threw the block in but didn't actually have it run. So it's really just a second lstm with dif values so the output between the two doesn't look exactly the same." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
