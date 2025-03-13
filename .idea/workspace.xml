@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="For some reason, transformers now work and I found code for a working BERT model that can predict labels of a text.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Initial working BERT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,15 +328,8 @@
       <workItem from="1741379827391" duration="3996000" />
       <workItem from="1741617346706" duration="2529000" />
       <workItem from="1741785286806" duration="4952000" />
-      <workItem from="1741798563298" duration="9050000" />
-    </task>
-    <task id="LOCAL-00178" summary="It still sucks">
-      <option name="closed" value="true" />
-      <created>1731522761595</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1731522761595</updated>
+      <workItem from="1741798563298" duration="9181000" />
+      <workItem from="1741870990399" duration="21113000" />
     </task>
     <task id="LOCAL-00179" summary="Adding synthetic data">
       <option name="closed" value="true" />
@@ -721,7 +715,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741804797157</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Initial working BERT">
+      <option name="closed" value="true" />
+      <created>1741809207567</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1741809207567</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +741,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding confusion matrix" />
     <MESSAGE value="Fixing confusion matrix" />
     <MESSAGE value="Dropping synthetic data to resolve an issue with splitting the training data." />
     <MESSAGE value="Moving things into portfolio" />
@@ -764,7 +765,8 @@
     <MESSAGE value="Everything should be fixed now. &#10;&#10;I just need to get the models to not be bad and add AUROC&#10;&#10;Then I can add ConvLSTM and BERT" />
     <MESSAGE value="Tried adding ConvLSTM but it's not working. I don't understand what it is expecting as the input shape. Maybe I'll fix it later. For now, I threw the block in but didn't actually have it run. So it's really just a second lstm with dif values so the output between the two doesn't look exactly the same." />
     <MESSAGE value="For some reason, transformers now work and I found code for a working BERT model that can predict labels of a text." />
-    <option name="LAST_COMMIT_MESSAGE" value="For some reason, transformers now work and I found code for a working BERT model that can predict labels of a text." />
+    <MESSAGE value="Initial working BERT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial working BERT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
