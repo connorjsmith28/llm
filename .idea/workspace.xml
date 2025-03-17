@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Everything else works now. &#10;&#10;I just need to add auroc and do a full run. Maybe add some more meaningful hyper parameters.">
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/dataset2/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/dataset2/snli_1.0_dev.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/dataset2/snli_1.0_dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/dataset2/snli_1.0_test.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/dataset2/snli_1.0_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/dataset2/snli_1.0_train.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/dataset2/snli_1.0_train.txt" afterDir="false" />
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,11 +105,11 @@
       <recent name="C:\Users\connor\PycharmProjects\llm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_2\dataset2" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_2" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_1" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_652" />
       <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
-      <recent name="C:\Users\connor\PycharmProjects\portfolio" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -338,15 +329,7 @@
       <workItem from="1741785286806" duration="4952000" />
       <workItem from="1741798563298" duration="9181000" />
       <workItem from="1741870990399" duration="21174000" />
-      <workItem from="1742216504557" duration="3296000" />
-    </task>
-    <task id="LOCAL-00180" summary="Base CNN code created">
-      <option name="closed" value="true" />
-      <created>1731599059171</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1731599059171</updated>
+      <workItem from="1742216504557" duration="8484000" />
     </task>
     <task id="LOCAL-00181" summary="Adding in all relevant plotting and grid search functions for the CNN">
       <option name="closed" value="true" />
@@ -732,7 +715,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741897748559</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish.">
+      <option name="closed" value="true" />
+      <created>1742220103202</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1742220103203</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +741,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dropping synthetic data to resolve an issue with splitting the training data." />
     <MESSAGE value="Moving things into portfolio" />
     <MESSAGE value="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool" />
     <MESSAGE value="Adding in functions for REACT. Created check_parents which returns a list of parent nodes for the current model." />
@@ -775,7 +765,8 @@
     <MESSAGE value="For some reason, transformers now work and I found code for a working BERT model that can predict labels of a text." />
     <MESSAGE value="Initial working BERT" />
     <MESSAGE value="Everything else works now. &#10;&#10;I just need to add auroc and do a full run. Maybe add some more meaningful hyper parameters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything else works now. &#10;&#10;I just need to add auroc and do a full run. Maybe add some more meaningful hyper parameters." />
+    <MESSAGE value="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish." />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
