@@ -7,6 +7,7 @@
     <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,15 +330,7 @@
       <workItem from="1741785286806" duration="4952000" />
       <workItem from="1741798563298" duration="9181000" />
       <workItem from="1741870990399" duration="21174000" />
-      <workItem from="1742216504557" duration="8484000" />
-    </task>
-    <task id="LOCAL-00181" summary="Adding in all relevant plotting and grid search functions for the CNN">
-      <option name="closed" value="true" />
-      <created>1732026591501</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1732026591501</updated>
+      <workItem from="1742216504557" duration="17394000" />
     </task>
     <task id="LOCAL-00182" summary="Trained models">
       <option name="closed" value="true" />
@@ -723,7 +716,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742220103203</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish.">
+      <option name="closed" value="true" />
+      <created>1742225415026</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1742225415026</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
