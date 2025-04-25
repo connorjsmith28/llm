@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish.">
+    <list default="true" id="327c0256-c868-459d-a76d-0737246cca01" name="Changes" comment="Adding ROC plot">
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/Assignment3_2025.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/datasets/ADMISSIONS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/datasets/glove.6B.100d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/datasets/wikihowAll.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/part_1/Assignment3_Applied_Transformer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/part_1/Assignment3_Applied_part1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/part_1/Sample.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/assignment_3/part_1/gameplan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rice/comp_652/final_project/final_project.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/FloSports/netflix_analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiding_star/models/marts/base/test_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/guiding_star/models/marts/base/test_2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_614/homework/hw5/write_up_scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_614/homework/hw5/write_up_scratch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_2025_BERT.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rice/comp_652/assignment_2/Assignment2_Applied2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +86,10 @@
     &quot;Python.base_combine_voo_daily.executor&quot;: &quot;Run&quot;,
     &quot;Python.calendar.executor&quot;: &quot;Run&quot;,
     &quot;Python.combine_historical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_prep.executor&quot;: &quot;Run&quot;,
     &quot;Python.heb_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lstm_Attention.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mimic_utils.executor&quot;: &quot;Run&quot;,
     &quot;Python.ollama_server.executor&quot;: &quot;Run&quot;,
     &quot;Python.room_mapping.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -106,11 +122,11 @@
       <recent name="C:\Users\connor\PycharmProjects\llm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_3\part_1" />
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_3\part 1" />
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_3\part 2" />
+      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_3\datasets" />
       <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_2\dataset2" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_2" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652\assignment_1" />
-      <recent name="C:\Users\connor\PycharmProjects\rice\comp_652" />
-      <recent name="C:\Users\connor\PycharmProjects\trading\import_and_cleaning_scripts" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -330,15 +346,38 @@
       <workItem from="1741785286806" duration="4952000" />
       <workItem from="1741798563298" duration="9181000" />
       <workItem from="1741870990399" duration="21174000" />
-      <workItem from="1742216504557" duration="17394000" />
-    </task>
-    <task id="LOCAL-00182" summary="Trained models">
-      <option name="closed" value="true" />
-      <created>1732027296787</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1732027296788</updated>
+      <workItem from="1742216504557" duration="31695000" />
+      <workItem from="1742303153880" duration="18518000" />
+      <workItem from="1742389308686" duration="30861000" />
+      <workItem from="1742481714902" duration="644000" />
+      <workItem from="1742562663730" duration="601000" />
+      <workItem from="1742564895163" duration="632000" />
+      <workItem from="1742908603077" duration="3401000" />
+      <workItem from="1743081021964" duration="2355000" />
+      <workItem from="1743167833285" duration="609000" />
+      <workItem from="1743214752151" duration="2079000" />
+      <workItem from="1743426615089" duration="6819000" />
+      <workItem from="1743512399211" duration="8795000" />
+      <workItem from="1743599053615" duration="1196000" />
+      <workItem from="1743600264129" duration="10636000" />
+      <workItem from="1743685562878" duration="4113000" />
+      <workItem from="1743772169145" duration="6934000" />
+      <workItem from="1743987739059" duration="82000" />
+      <workItem from="1744031518938" duration="8516000" />
+      <workItem from="1744117865114" duration="14274000" />
+      <workItem from="1744205248827" duration="10223000" />
+      <workItem from="1744290614341" duration="2552000" />
+      <workItem from="1744376825678" duration="8587000" />
+      <workItem from="1744417050360" duration="3854000" />
+      <workItem from="1744635717464" duration="5650000" />
+      <workItem from="1744656023802" duration="4156000" />
+      <workItem from="1744721874267" duration="3976000" />
+      <workItem from="1744728040379" duration="320000" />
+      <workItem from="1744728385062" duration="3104000" />
+      <workItem from="1744809093495" duration="1173000" />
+      <workItem from="1744847710292" duration="608000" />
+      <workItem from="1744913567196" duration="316000" />
+      <workItem from="1745586463638" duration="1772000" />
     </task>
     <task id="LOCAL-00183" summary="Dropping unused softmax one-hot encoding part since I've already one-hot-encoded the data above.">
       <option name="closed" value="true" />
@@ -724,7 +763,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742225415026</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="Adding ROC plot">
+      <option name="closed" value="true" />
+      <created>1742234946998</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1742234946998</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +789,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Moving things into portfolio" />
     <MESSAGE value="Moving a piece of code taht shouldn't be in the portfolio &#10;&#10;Also creating skeleton code to be able to query the ollama server for the SQL lineage tool" />
     <MESSAGE value="Adding in functions for REACT. Created check_parents which returns a list of parent nodes for the current model." />
     <MESSAGE value="Created functions to parse manifest json. &#10;&#10;Now, llm needs to read sql file and determine if a given field is present in the file. If it is, then it needs to figure out which parent node(s) it comes from" />
@@ -767,7 +813,8 @@
     <MESSAGE value="Initial working BERT" />
     <MESSAGE value="Everything else works now. &#10;&#10;I just need to add auroc and do a full run. Maybe add some more meaningful hyper parameters." />
     <MESSAGE value="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish." />
-    <option name="LAST_COMMIT_MESSAGE" value="Need to create roc function. I think I have all the pieces I just need to wait for Bert to finish." />
+    <MESSAGE value="Adding ROC plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding ROC plot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,10 +834,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$combine_historical.coverage" NAME="combine_historical Coverage Results" MODIFIED="1719580819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/combined" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$data_prep.coverage" NAME="data_prep Coverage Results" MODIFIED="1743773668231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rice/comp_652/assignment_3/part_2" />
     <SUITE FILE_PATH="coverage/PycharmProjects$base_combine_voo_daily.coverage" NAME="base_combine_voo_daily Coverage Results" MODIFIED="1719953540989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/import_and_cleaning_scripts" />
     <SUITE FILE_PATH="coverage/PycharmProjects$room_mapping.coverage" NAME="room_mapping Coverage Results" MODIFIED="1710375757125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raspberry_pi" />
     <SUITE FILE_PATH="coverage/PycharmProjects$calendar.coverage" NAME="calendar Coverage Results" MODIFIED="1719582815076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trading/data/base" />
     <SUITE FILE_PATH="coverage/PycharmProjects$heb_functions.coverage" NAME="heb_functions Coverage Results" MODIFIED="1722782466855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heb_webstore" />
     <SUITE FILE_PATH="coverage/PycharmProjects$ollama_server.coverage" NAME="ollama_server Coverage Results" MODIFIED="1737561615566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbt_column_lineage" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$lstm_Attention.coverage" NAME="lstm_Attention Coverage Results" MODIFIED="1743600271484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rice/comp_652/assignment_3/Bidirectiona-LSTM-for-text-summarization--master" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$mimic_utils.coverage" NAME="mimic_utils Coverage Results" MODIFIED="1743774078974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rice/comp_652/assignment_3/part_2/helper_functions/tasks" />
   </component>
 </project>
